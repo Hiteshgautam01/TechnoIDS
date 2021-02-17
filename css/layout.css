@@ -320,17 +320,15 @@ h4 {
 }
 
 .nav-item__category {
+  align-self: stretch;
   background-color: #1b1e23;
-  border-right: 1px solid #000;
   width: 24%;
-  padding: 0.8rem;
   min-height: 80vh;
   font-family: "Poppins", sans-serif;
 }
 .nav-item__category-sub {
-  background-color: #1b1e23;
+  background-color: #343434;
   border-right: 1px solid #000;
-  padding: 1%;
   width: 25%;
   height: 80vh;
 }
@@ -355,7 +353,6 @@ h4 {
 }
 
 .single-product {
-  margin: 1rem;
   display: flex;
   padding: 1.5rem;
   justify-content: center;
@@ -388,31 +385,34 @@ h4 {
 
 .list-category {
   list-style: none;
+  padding: 0;
   font-size: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
+  animation: all 0.3s;
 }
 .list-category-item {
-  display: iflex;
+  display: flex;
+  position: relative;
   align-items: center;
-  padding: 1rem 0;
+  padding: 2rem 3rem;
   color: #f3ff91;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
 }
 .list-category-item:hover {
-  background-color: #fff;
+  background-color: #fd871f;
 }
 .list-category-item-icon {
   font-size: 1.2rem;
   margin-right: 5px;
   padding: 5px;
-  color: #fd871f;
+  color: #f3ff91;
 }
 
 #products:hover > * {
-  color: #fff;
+  color: #fd871f;
   font-weight: 700;
   font-stretch: ultra-expanded;
   background-color: #1b1e23;

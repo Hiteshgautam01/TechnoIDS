@@ -10,17 +10,16 @@
 // ALLT THE  THREE NAV CONTAINERS
 .nav-item {
   &__category {
+    align-self: stretch;
     background-color: $color-black-tertiary;
-    border-right: 1px solid $color-black;
     width: 24%;
-    padding: 0.8rem;
+
     min-height: 80vh;
     font-family: "Poppins", sans-serif;
   }
   &__category-sub {
-    background-color: $color-black-tertiary;
+    background-color: $color-black-secondary;
     border-right: 1px solid $color-black;
-    padding: 1%;
     width: 25%;
     height: 80vh;
   }
@@ -44,7 +43,6 @@
 
 // THE SINGLE PRODUCT
 .single-product {
-  margin: 1rem;
   display: flex;
   padding: 1.5rem;
   justify-content: center;
@@ -79,34 +77,39 @@
 // LIST CATEGORY STYLING
 .list-category {
   list-style: none;
+  padding: 0;
   font-size: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
+  animation: all 0.3s;
   &-item {
-    display: iflex;
+    display: flex;
+    position: relative;
     align-items: center;
-    padding: 1rem 0;
+    padding: 2rem 3rem;
     color: $color-heading-secondary;
     font-family: "Poppins", sans-serif;
     cursor: pointer;
   }
   &-item:hover {
-    background-color: $color-white;
+    background-color: $color-base;
   }
   &-item-icon {
     font-size: 1.2rem;
     margin-right: 5px;
     padding: 5px;
-    color: $color-base;
+    color: $color-heading-secondary;
   }
 }
 /////////////////////////////////////////////////
 // DISPLAY THE NAV BAR ON HOVER BY THE products button
 
 #products:hover > * {
-  color: $color-white;
+  color: $color-base;
   font-weight: 700;
   font-stretch: ultra-expanded;
   background-color: $color-black-tertiary;
 }
+
+// SET

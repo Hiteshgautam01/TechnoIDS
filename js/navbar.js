@@ -48,3 +48,79 @@ $(document).ready(function () {
     }
   });
 });
+
+// -----PRODUCT CATEGORY SHOW OR HIDE-----
+// CATEGORY A-1
+$(document).ready(function () {
+  $("#subcategoryA-1").mouseenter(function () {
+    $("#productCategoryA-1").stop().show();
+  });
+
+  $("#subcategoryA-1, #productCategoryA-1").mouseleave(function () {
+    if (!$("#productCategoryA-1").is(":hover")) {
+      $("#productCategoryA-1").hide();
+    }
+  });
+});
+// CATEGORY A-2
+$(document).ready(function () {
+  $("#subcategoryA-2").mouseenter(function () {
+    $("#productCategoryA-2").stop().show();
+  });
+
+  $("#subcategoryA-2, #productCategoryA-2").mouseleave(function () {
+    if (!$("#productCategoryA-2").is(":hover")) {
+      $("#productCategoryA-2").hide();
+    }
+  });
+});
+// CATEGORY A-3
+$(document).ready(function () {
+  $("#subcategoryA-3").mouseenter(function () {
+    $("#productCategoryA-3").stop().show();
+  });
+
+  $("#subcategoryA-3, #productCategoryA-3").mouseleave(function () {
+    if (!$("#productCategoryA-3").is(":hover")) {
+      $("#productCategoryA-3").hide();
+    }
+  });
+});
+
+// CATEGORY A-4
+$(document).ready(function () {
+  $("#subcategoryA-4").mouseenter(function () {
+    $("#productCategoryA-4").stop().show();
+  });
+
+  $("#subcategoryA-4, #productCategoryA-4").mouseleave(function () {
+    if (!$("#productCategoryA-4").is(":hover")) {
+      $("#productCategoryA-4").hide();
+    }
+  });
+});
+
+// CATEGORY B-3
+$(document).ready(function () {
+  $("#subcategoryB-1").mouseenter(function () {
+    $("#productCategoryB-1").stop().show();
+  });
+
+  $("#subcategoryB-1, #productCategoryB-1").mouseleave(function () {
+    if (!$("#productCategoryB-1").is(":hover")) {
+      $("#productCategoryB-1").hide();
+    }
+  });
+});
+// CATEGORY C-1
+$(document).ready(function () {
+  $("#subcategoryC-1").mouseenter(function () {
+    $("#productCategoryC-1").stop().show();
+  });
+
+  $("#subcategoryC-1, #productCategoryBC-1").mouseleave(function () {
+    if (!$("#productCategoryC-1").is(":hover")) {
+      $("#productCategoryC-1").hide();
+    }
+  });
+});
