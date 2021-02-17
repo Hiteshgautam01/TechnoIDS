@@ -399,6 +399,10 @@ h4 {
   padding: 1rem 0;
   color: #f3ff91;
   font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.list-category-item:hover {
+  background-color: #fff;
 }
 .list-category-item-icon {
   font-size: 1.2rem;
@@ -643,7 +647,6 @@ h4 {
 /* Navbar */
 .header .navbar {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -924,6 +927,10 @@ h4 {
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
   }
 }
+.navbar {
+  border: 0;
+}
+
 /*------------------------------------------------------------------
   	[Contact]
 ------------------------------------------------------------------*/

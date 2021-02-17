@@ -89,8 +89,10 @@
     padding: 1rem 0;
     color: $color-heading-secondary;
     font-family: "Poppins", sans-serif;
+    cursor: pointer;
   }
-  &-item-main {
+  &-item:hover {
+    background-color: $color-white;
   }
   &-item-icon {
     font-size: 1.2rem;
