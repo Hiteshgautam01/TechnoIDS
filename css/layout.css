@@ -313,13 +313,17 @@ h4 {
   display: flex;
   background-color: #343434;
   width: 100%;
+  align-items: flex-start;
+  min-height: 80vh;
+  margin-bottom: 2px solid #000;
+  animation: all 0.2s;
 }
 
 .nav-item__category {
   background-color: #1b1e23;
   border-right: 1px solid #000;
-  width: 23%;
-  padding: 1rem;
+  width: 24%;
+  padding: 0.8rem;
   min-height: 80vh;
   font-family: "Poppins", sans-serif;
 }
@@ -328,6 +332,7 @@ h4 {
   border-right: 1px solid #000;
   padding: 1%;
   width: 25%;
+  height: 80vh;
 }
 .nav-item__category-sub-products {
   display: flex;
@@ -355,7 +360,7 @@ h4 {
   padding: 1.5rem;
   justify-content: center;
   align-items: flex-start;
-  border: 1px solid #fff;
+  border: 1px solid #000;
   border-radius: 10px;
   background-color: #000;
 }
@@ -400,6 +405,13 @@ h4 {
   margin-right: 5px;
   padding: 5px;
   color: #fd871f;
+}
+
+#products:hover > * {
+  color: #fff;
+  font-weight: 700;
+  font-stretch: ultra-expanded;
+  background-color: #1b1e23;
 }
 
 /*------------------------------------------------------------------

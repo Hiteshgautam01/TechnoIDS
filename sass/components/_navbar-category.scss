@@ -2,14 +2,18 @@
   display: flex;
   background-color: $color-black-secondary;
   width: 100%;
+  align-items: flex-start;
+  min-height: 80vh;
+  margin-bottom: 2px solid $color-black;
+  animation: all 0.2s;
 }
 // ALLT THE  THREE NAV CONTAINERS
 .nav-item {
   &__category {
     background-color: $color-black-tertiary;
     border-right: 1px solid $color-black;
-    width: 23%;
-    padding: 1rem;
+    width: 24%;
+    padding: 0.8rem;
     min-height: 80vh;
     font-family: "Poppins", sans-serif;
   }
@@ -18,6 +22,7 @@
     border-right: 1px solid $color-black;
     padding: 1%;
     width: 25%;
+    height: 80vh;
   }
   &__category-sub-products {
     display: flex;
@@ -44,7 +49,7 @@
   padding: 1.5rem;
   justify-content: center;
   align-items: flex-start;
-  border: 1px solid $color-white;
+  border: 1px solid $color-black;
   border-radius: 10px;
   background-color: $color-black;
 
@@ -94,7 +99,12 @@
     color: $color-base;
   }
 }
-
+/////////////////////////////////////////////////
 // DISPLAY THE NAV BAR ON HOVER BY THE products button
-#product {
+
+#products:hover > * {
+  color: $color-white;
+  font-weight: 700;
+  font-stretch: ultra-expanded;
+  background-color: $color-black-tertiary;
 }
