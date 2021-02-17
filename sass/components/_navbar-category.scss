@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column;
     height: 80vh;
-    background-color: $color-black-tertiary;
+    background-color: $color-black-secondary;
     flex: 1;
     overflow-y: auto;
     &::-webkit-scrollbar {
@@ -45,6 +45,7 @@
 .single-product {
   display: flex;
   padding: 1.5rem;
+  margin: 1rem 1rem;
   justify-content: center;
   align-items: flex-start;
   border: 1px solid $color-black;
@@ -54,11 +55,12 @@
   &__image {
     width: 100%;
     margin-right: 2rem;
-    height: 100%;
+    height: 96%;
     padding: 0 1rem;
-    border-radius: 10%;
+    border-radius: 3rem;
   }
   &__info {
+    flex: 0 0 65%;
     display: flex;
     flex-direction: column;
     padding: 0 0;
@@ -112,4 +114,24 @@
   background-color: $color-black-tertiary;
 }
 
-// SET
+// SETTING TH E INITIAL DISPLAY PROPERTY TO NULL
+#toggler {
+  display: none;
+}
+// SEETTING PRODUCTS TO INVISIBLE
+
+#productCategoryA-2,
+#productCategoryA-3,
+#productCategoryA-4,
+#productCategoryB-1,
+#productCategoryC-1,
+#productCategoryC-2,
+#productCategoryC-3 {
+  display: none;
+}
+// SETING SUB CATEGORY INVISIBLE
+
+#child__security,
+#child__parking {
+  display: none;
+}

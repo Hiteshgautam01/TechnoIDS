@@ -124,3 +124,29 @@ $(document).ready(function () {
     }
   });
 });
+
+// CATEGORY C-2`
+$(document).ready(function () {
+  $("#subcategoryC-3").mouseenter(function () {
+    $("#productCategoryC-2").stop().show();
+  });
+
+  $("#subcategoryC-2, #productCategoryBC-2").mouseleave(function () {
+    if (!$("#productCategoryC-2").is(":hover")) {
+      $("#productCategoryC-2").hide();
+    }
+  });
+});
+
+// CATEGORY C-3
+$(document).ready(function () {
+  $("#subcategoryC-3").mouseenter(function () {
+    $("#productCategoryC-3").stop().show();
+  });
+
+  $("#subcategoryC-3, #productCategoryBC-3").mouseleave(function () {
+    if (!$("#productCategoryC-3").is(":hover")) {
+      $("#productCategoryC-3").hide();
+    }
+  });
+});
