@@ -1,6 +1,5 @@
 .nav-item-container {
   display: flex;
-
   background-color: $color-black-secondary;
   width: 100%;
 }
@@ -10,7 +9,7 @@
     background-color: $color-black-tertiary;
     border-right: 1px solid $color-black;
     width: 23%;
-    padding: 1%;
+    padding: 1rem;
     min-height: 80vh;
     font-family: "Poppins", sans-serif;
   }
@@ -44,24 +43,29 @@
   display: flex;
   padding: 1.5rem;
   justify-content: center;
+  align-items: flex-start;
   border: 1px solid $color-white;
-  border-radius: 15px;
-  background-color: $color-white-dark;
+  border-radius: 10px;
+  background-color: $color-black;
 
   &__image {
-    width: 90%;
+    width: 100%;
     margin-right: 2rem;
+    height: 100%;
     padding: 0 1rem;
+    border-radius: 10%;
   }
   &__info {
     display: flex;
     flex-direction: column;
+    padding: 0 0;
+    justify-content: flex-start;
     &-name {
-      font-size: 1.7rem;
-      color: $color-black-secondary;
+      font-size: 1.5rem;
+      color: $color-gold;
     }
     &-description {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       margin: 0;
     }
   }
@@ -70,8 +74,27 @@
 // LIST CATEGORY STYLING
 .list-category {
   list-style: none;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   &-item {
+    display: iflex;
+    align-items: center;
+    padding: 1rem 0;
     color: $color-heading-secondary;
     font-family: "Poppins", sans-serif;
   }
+  &-item-main {
+  }
+  &-item-icon {
+    font-size: 1.2rem;
+    margin-right: 5px;
+    padding: 5px;
+    color: $color-base;
+  }
+}
+
+// DISPLAY THE NAV BAR ON HOVER BY THE products button
+#product {
 }

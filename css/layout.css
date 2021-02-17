@@ -319,7 +319,7 @@ h4 {
   background-color: #1b1e23;
   border-right: 1px solid #000;
   width: 23%;
-  padding: 1%;
+  padding: 1rem;
   min-height: 80vh;
   font-family: "Poppins", sans-serif;
 }
@@ -354,34 +354,52 @@ h4 {
   display: flex;
   padding: 1.5rem;
   justify-content: center;
+  align-items: flex-start;
   border: 1px solid #fff;
-  border-radius: 15px;
-  background-color: #f2f3f4;
+  border-radius: 10px;
+  background-color: #000;
 }
 .single-product__image {
-  width: 90%;
+  width: 100%;
   margin-right: 2rem;
+  height: 100%;
   padding: 0 1rem;
+  border-radius: 10%;
 }
 .single-product__info {
   display: flex;
   flex-direction: column;
+  padding: 0 0;
+  justify-content: flex-start;
 }
 .single-product__info-name {
-  font-size: 1.7rem;
-  color: #343434;
+  font-size: 1.5rem;
+  color: #ffd700;
 }
 .single-product__info-description {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 0;
 }
 
 .list-category {
   list-style: none;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .list-category-item {
+  display: iflex;
+  align-items: center;
+  padding: 1rem 0;
   color: #f3ff91;
   font-family: "Poppins", sans-serif;
+}
+.list-category-item-icon {
+  font-size: 1.2rem;
+  margin-right: 5px;
+  padding: 5px;
+  color: #fd871f;
 }
 
 /*------------------------------------------------------------------
