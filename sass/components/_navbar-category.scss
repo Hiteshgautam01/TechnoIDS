@@ -1,0 +1,21 @@
+.nav-item-container {
+  border-top: 1px solid $color-white;
+  display: flex;
+  flex-direction: row;
+
+  background-color: $color-black;
+  width: 100%;
+}
+.nav-item {
+  &__category {
+    background-color: aqua;
+    z-index: 100;
+    height: 60vh;
+  }
+  &__category-sub {
+    background-color: orange;
+  }
+  &__category-sub-details {
+    background-color: green;
+  }
+}
