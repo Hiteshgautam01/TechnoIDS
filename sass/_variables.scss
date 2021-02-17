@@ -13,14 +13,17 @@ $color-base: rgb(253, 135, 31) !default;
 $color-white: #fff !default;
 $color-white-dark: #f2f3f4 !default;
 
-$color-heading: #515769;
 $color-subtitle: rgb(166, 167, 170) !default;
 $color-link: #81848f !default;
 $color-link-hover: #999caa !default;
 $color-sky-light: #fafafa !default;
 $color-black: #000;
 $color-black-secondary: #343434;
+$color-black-tertiary: #1b1e23;
 
+//COLORFOR VARIOUS HEADINGS
+$color-heading: #515769;
+$color-heading-secondary: #f3ff91;
 // ==================================
 // Media queries breakpoints
 // ==================================

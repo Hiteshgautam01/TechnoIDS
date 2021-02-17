@@ -1,5 +1,4 @@
 .nav-item-container {
-  border-top: 1px solid $color-white;
   display: flex;
 
   background-color: $color-black-secondary;
@@ -8,19 +7,34 @@
 // ALLT THE  THREE NAV CONTAINERS
 .nav-item {
   &__category {
-    background-color: aqua;
+    background-color: $color-black-tertiary;
+    border-right: 1px solid $color-black;
     width: 23%;
     padding: 1%;
     min-height: 80vh;
+    font-family: "Poppins", sans-serif;
   }
   &__category-sub {
-    background-color: orange;
+    background-color: $color-black-tertiary;
+    border-right: 1px solid $color-black;
     padding: 1%;
     width: 25%;
   }
   &__category-sub-products {
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-color: $color-black-tertiary;
     flex: 1;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $color-black-secondary; /* color of the scroll thumb */
+      border-radius: 20px; /* roundness of the scroll thumb */
+      border: 3px solid $color-base; /* creates padding around scroll thumb */
+    }
   }
 }
 
@@ -50,5 +64,14 @@
       font-size: 1.5rem;
       margin: 0;
     }
+  }
+}
+
+// LIST CATEGORY STYLING
+.list-category {
+  list-style: none;
+  &-item {
+    color: $color-heading-secondary;
+    font-family: "Poppins", sans-serif;
   }
 }
