@@ -1,21 +1,54 @@
 .nav-item-container {
   border-top: 1px solid $color-white;
   display: flex;
-  flex-direction: row;
 
-  background-color: $color-black;
+  background-color: $color-black-secondary;
   width: 100%;
 }
+// ALLT THE  THREE NAV CONTAINERS
 .nav-item {
   &__category {
     background-color: aqua;
-    z-index: 100;
-    height: 60vh;
+    width: 23%;
+    padding: 1%;
+    min-height: 80vh;
   }
   &__category-sub {
     background-color: orange;
+    padding: 1%;
+    width: 25%;
   }
-  &__category-sub-details {
+  &__category-sub-products {
     background-color: green;
+    flex: 1;
+  }
+}
+
+// THE SINGLE PRODUCT
+.single-product {
+  margin: 1rem;
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  border: 1px solid $color-white;
+  border-radius: 15px;
+  background-color: $color-white-dark;
+
+  &__image {
+    width: 90%;
+    margin-right: 2rem;
+    padding: 0 1rem;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    &-name {
+      font-size: 1.7rem;
+      color: $color-black-secondary;
+    }
+    &-description {
+      font-size: 1.5rem;
+      margin: 0;
+    }
   }
 }
