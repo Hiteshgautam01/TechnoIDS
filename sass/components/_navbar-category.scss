@@ -1,25 +1,29 @@
 .nav-item-container {
   display: flex;
+  overflow: hidden;
   background-color: $color-black-secondary;
   width: 100%;
   align-items: flex-start;
   min-height: 80vh;
   margin-bottom: 2px solid $color-black;
   animation: all 0.2s;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 1px solid $color-black-tertiary;
 }
 // ALLT THE  THREE NAV CONTAINERS
 .nav-item {
   &__category {
     align-self: stretch;
-    background-color: $color-black-tertiary;
+    background-color: rgba($color-black, 0.9);
     width: 24%;
-
+    border-right: 1px solid $color-black-tertiary;
     min-height: 80vh;
     font-family: "Poppins", sans-serif;
   }
   &__category-sub {
-    background-color: $color-black-secondary;
-    border-right: 1px solid $color-black;
+    background-color: $color-black;
+    border-right: 1px solid $color-black-tertiary;
     width: 25%;
     height: 80vh;
   }
@@ -27,8 +31,17 @@
     display: flex;
     flex-direction: column;
     height: 80vh;
-    background-color: $color-black-secondary;
+
+    & > * {
+      width: 100%;
+      margin: 0;
+      border: 0;
+      padding: 0;
+    }
+
+    background-color: $color-black;
     flex: 1;
+    padding: 0 1rem;
     overflow-y: auto;
     &::-webkit-scrollbar {
       width: 3px;
@@ -45,17 +58,17 @@
 .single-product {
   display: flex;
   padding: 1.5rem;
-  margin: 1rem 1rem;
+  margin: 1rem 0;
   justify-content: center;
-  align-items: flex-start;
-  border: 1px solid $color-black;
-  border-radius: 10px;
+  align-items: center;
+
+  border-radius: 15px;
   background-color: $color-black;
 
   &__image {
-    width: 100%;
+    width: 90%;
     margin-right: 2rem;
-    height: 96%;
+    height: 90%;
     padding: 0 1rem;
     border-radius: 3rem;
   }
@@ -80,12 +93,13 @@
 .list-category {
   list-style: none;
   padding: 0;
-  font-size: 2rem;
+
   display: flex;
   flex-direction: column;
   align-items: stretch;
   animation: all 0.3s;
   &-item {
+    font-size: 1.4rem;
     display: flex;
     position: relative;
     align-items: center;
@@ -95,7 +109,7 @@
     cursor: pointer;
   }
   &-item:hover {
-    background-color: $color-base;
+    background-color: rgba($color-black-secondary, 0.9);
   }
   &-item-icon {
     font-size: 1.2rem;
@@ -134,4 +148,11 @@
 #child__security,
 #child__parking {
   display: none;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
 }

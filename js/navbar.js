@@ -6,6 +6,7 @@ $(document).ready(function () {
 
   $("#products, #toggler").mouseleave(function () {
     if (!$("#toggler").is(":hover")) {
+      $("#products").trigger("mouseover");
       $("#toggler").hide();
     }
   });
@@ -57,7 +58,7 @@ $(document).ready(function () {
   });
 
   $("#subcategoryA-1, #productCategoryA-1").mouseleave(function () {
-    if (!$("#productCategoryA-1").is(":hover")) {
+    if (!$("#category__product").is(":hover")) {
       $("#productCategoryA-1").hide();
     }
   });
@@ -69,7 +70,7 @@ $(document).ready(function () {
   });
 
   $("#subcategoryA-2, #productCategoryA-2").mouseleave(function () {
-    if (!$("#productCategoryA-2").is(":hover")) {
+    if (!$("#category__product").is(":hover")) {
       $("#productCategoryA-2").hide();
     }
   });
@@ -81,7 +82,7 @@ $(document).ready(function () {
   });
 
   $("#subcategoryA-3, #productCategoryA-3").mouseleave(function () {
-    if (!$("#productCategoryA-3").is(":hover")) {
+    if (!$("#category__product").is(":hover")) {
       $("#productCategoryA-3").hide();
     }
   });
@@ -94,7 +95,7 @@ $(document).ready(function () {
   });
 
   $("#subcategoryA-4, #productCategoryA-4").mouseleave(function () {
-    if (!$("#productCategoryA-4").is(":hover")) {
+    if (!$("#category__product").is(":hover")) {
       $("#productCategoryA-4").hide();
     }
   });
@@ -107,7 +108,7 @@ $(document).ready(function () {
   });
 
   $("#subcategoryB-1, #productCategoryB-1").mouseleave(function () {
-    if (!$("#productCategoryB-1").is(":hover")) {
+    if (!$("#category__product").is(":hover")) {
       $("#productCategoryB-1").hide();
     }
   });
@@ -119,7 +120,7 @@ $(document).ready(function () {
   });
 
   $("#subcategoryC-1, #productCategoryBC-1").mouseleave(function () {
-    if (!$("#productCategoryC-1").is(":hover")) {
+    if (!$("#category__product").is(":hover")) {
       $("#productCategoryC-1").hide();
     }
   });
@@ -132,7 +133,7 @@ $(document).ready(function () {
   });
 
   $("#subcategoryC-2, #productCategoryBC-2").mouseleave(function () {
-    if (!$("#productCategoryC-2").is(":hover")) {
+    if (!$("#category__product").is(":hover")) {
       $("#productCategoryC-2").hide();
     }
   });
@@ -145,7 +146,7 @@ $(document).ready(function () {
   });
 
   $("#subcategoryC-3, #productCategoryBC-3").mouseleave(function () {
-    if (!$("#productCategoryC-3").is(":hover")) {
+    if (!$("#category__product").is(":hover")) {
       $("#productCategoryC-3").hide();
     }
   });

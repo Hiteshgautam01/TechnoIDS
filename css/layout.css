@@ -311,24 +311,29 @@ h4 {
 
 .nav-item-container {
   display: flex;
+  overflow: hidden;
   background-color: #343434;
   width: 100%;
   align-items: flex-start;
   min-height: 80vh;
   margin-bottom: 2px solid #000;
   animation: all 0.2s;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 1px solid #1b1e23;
 }
 
 .nav-item__category {
   align-self: stretch;
-  background-color: #1b1e23;
+  background-color: rgba(0, 0, 0, 0.9);
   width: 24%;
+  border-right: 1px solid #1b1e23;
   min-height: 80vh;
   font-family: "Poppins", sans-serif;
 }
 .nav-item__category-sub {
-  background-color: #343434;
-  border-right: 1px solid #000;
+  background-color: #000;
+  border-right: 1px solid #1b1e23;
   width: 25%;
   height: 80vh;
 }
@@ -336,9 +341,16 @@ h4 {
   display: flex;
   flex-direction: column;
   height: 80vh;
-  background-color: #343434;
+  background-color: #000;
   flex: 1;
+  padding: 0 1rem;
   overflow-y: auto;
+}
+.nav-item__category-sub-products > * {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 .nav-item__category-sub-products::-webkit-scrollbar {
   width: 3px;
@@ -355,17 +367,16 @@ h4 {
 .single-product {
   display: flex;
   padding: 1.5rem;
-  margin: 1rem 1rem;
+  margin: 1rem 0;
   justify-content: center;
-  align-items: flex-start;
-  border: 1px solid #000;
-  border-radius: 10px;
+  align-items: center;
+  border-radius: 15px;
   background-color: #000;
 }
 .single-product__image {
-  width: 100%;
+  width: 90%;
   margin-right: 2rem;
-  height: 96%;
+  height: 90%;
   padding: 0 1rem;
   border-radius: 3rem;
 }
@@ -388,13 +399,13 @@ h4 {
 .list-category {
   list-style: none;
   padding: 0;
-  font-size: 2rem;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   animation: all 0.3s;
 }
 .list-category-item {
+  font-size: 1.4rem;
   display: flex;
   position: relative;
   align-items: center;
@@ -404,7 +415,7 @@ h4 {
   cursor: pointer;
 }
 .list-category-item:hover {
-  background-color: #fd871f;
+  background-color: rgba(52, 52, 52, 0.9);
 }
 .list-category-item-icon {
   font-size: 1.2rem;
@@ -437,6 +448,13 @@ h4 {
 #child__security,
 #child__parking {
   display: none;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
 }
 
 /*------------------------------------------------------------------
