@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="./css/layout-rtl.min.css">
   <link href="css/layout.css" rel="stylesheet" type="text/css" />
   <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="./js/svg-inject.min.js"></script>
 
   <link rel="shortcut icon" href="favicon.ico" />
 </head>
@@ -1190,14 +1191,15 @@
         </div>
         <!--// end row -->
 
-        <div class="row row-space-1 margin-b-2">
+       <div class="services-row">
+        <div class="row row-space-1">
           <div class="col-sm-4 sm-margin-b-2">
             <div class="service" data-height="height">
               <div class="service-element">
-                <i class="service-icon icon-chemistry"></i>
+               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/users.svg">
               </div>
               <div class="service-info">
-                <h3 class="color-white">Company Formation</h3>
+                <h3 class="color-white">Employee Database</h3>
                 <p class="color-white margin-b-5">
                   Lorem ipsum dolor amet consectetur ut consequat siad
                   esqudiat dolor
@@ -1209,10 +1211,10 @@
           <div class="col-sm-4 sm-margin-b-2">
             <div class="service" data-height="height">
               <div class="service-element">
-                <i class="service-icon icon-screen-tablet"></i>
+               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/dollar-sign.svg">
               </div>
               <div class="service-info">
-                <h3 class="color-white">Stuff Management</h3>
+                <h3 class="color-white">Payroll Processing</h3>
                 <p class="color-white margin-b-5">
                   Lorem ipsum dolor amet consectetur ut consequat siad
                   esqudiat dolor
@@ -1224,10 +1226,10 @@
           <div class="col-sm-4">
             <div class="service" data-height="height">
               <div class="service-element">
-                <i class="service-icon icon-badge"></i>
+                <img class="service-icon" onload="SVGInject(this)" src="./img/icons/calender.svg">
               </div>
               <div class="service-info">
-                <h3 class="color-white">KPI Optimization</h3>
+                <h3 class="color-white">Time & Attendance</h3>
                 <p class="color-white margin-b-5">
                   Lorem ipsum dolor amet consectetur ut consequat siad
                   esqudiat dolor
@@ -1243,10 +1245,10 @@
           <div class="col-sm-4 sm-margin-b-2">
             <div class="service" data-height="height">
               <div class="service-element">
-                <i class="service-icon icon-notebook"></i>
+               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/briefcase.svg">
               </div>
               <div class="service-info">
-                <h3 class="color-white">Information Security</h3>
+                <h3 class="color-white">Leave Management</h3>
                 <p class="color-white margin-b-5">
                   Lorem ipsum dolor amet consectetur ut consequat siad
                   esqudiat dolor
@@ -1258,10 +1260,10 @@
           <div class="col-sm-4 sm-margin-b-2">
             <div class="service" data-height="height">
               <div class="service-element">
-                <i class="service-icon icon-speedometer"></i>
+               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/check-circle.svg">
               </div>
               <div class="service-info">
-                <h3 class="color-white">Recrutinment</h3>
+                <h3 class="color-white">Claim & Reimbursement man TDS Management Software</h3>
                 <p class="color-white margin-b-5">
                   Lorem ipsum dolor amet consectetur ut consequat siad
                   esqudiat dolor
@@ -1271,6 +1273,54 @@
             </div>
           </div>
           <div class="col-sm-4">
+            <div class="service" data-height="height">
+              <div class="service-element">
+               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/external-link.svg">
+              </div>
+              <div class="service-info">
+                <h3 class="color-white">Exit Management</h3>
+                <p class="color-white margin-b-5">
+                  Lorem ipsum dolor amet consectetur ut consequat siad
+                  esqudiat dolor
+                </p>
+              </div>
+              <a href="#" class="content-wrapper-link"></a>
+            </div>
+          </div>
+        </div>
+        <!--// end row -->
+        <div class="row row-space-1">
+          <div class="col-sm-4 sm-margin-b-2">
+            <div class="service" data-height="height">
+              <div class="service-element">
+               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/user-check.svg">
+              </div>
+              <div class="service-info">
+                <h3 class="color-white">Employee Self Service</h3>
+                <p class="color-white margin-b-5">
+                  Lorem ipsum dolor amet consectetur ut consequat siad
+                  esqudiat dolor
+                </p>
+              </div>
+              <a href="#" class="content-wrapper-link"></a>
+            </div>
+          </div>
+          <div class="col-sm-4 sm-margin-b-2">
+            <div class="service" data-height="height">
+              <div class="service-element">
+                <img class="service-icon" onload="SVGInject(this)" src="./img/icons/smartphone.svg">
+              </div>
+              <div class="service-info">
+                <h3 class="color-white">Mobile Application</h3>
+                <p class="color-white margin-b-5">
+                  Lorem ipsum dolor amet consectetur ut consequat siad
+                  esqudiat dolor
+                </p>
+              </div>
+              <a href="#" class="content-wrapper-link"></a>
+            </div>
+          </div>
+          <!-- <div class="col-sm-4">
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-badge"></i>
@@ -1284,9 +1334,10 @@
               </div>
               <a href="#" class="content-wrapper-link"></a>
             </div>
-          </div>
+          </div> -->
         </div>
         <!--// end row -->
+       </div>
       </div>
     </div>
   </div>

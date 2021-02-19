@@ -511,6 +511,10 @@ h4 {
   background: #343434;
   padding: 50px;
 }
+.services-row
+{
+  background: #343434;
+}
 .service:hover
 {
   background: rgb(255, 145, 0);
@@ -529,7 +533,15 @@ h4 {
   display: block;
   font-size: 30px;
   color: #999caa;
+  /* fill: #999caa; */
   margin-bottom: 30px;
+  width: 34px;
+  height: 34px;
+}
+
+.service .service-icon path{
+  /* fill: #999caa; */
+  stroke: #999caa;
 }
 /* .service .service-icon:hover
 {
