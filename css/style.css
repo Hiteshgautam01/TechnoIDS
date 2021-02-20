@@ -2,3 +2,60 @@
 {
     background: black;
 } */
+
+.about-us
+{
+    height: 60vh;
+    background-image: url("/img/bg/aboutusbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}
+.about-us::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.521);
+    z-index: -1;
+}
+
+.about-us-inner
+{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+.about-us-main-txt
+{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.76);
+
+}
+
+.about-us-sub-txt
+{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.76);
+}
+.about-us-greeting-txt
+{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.76);
+
+}
