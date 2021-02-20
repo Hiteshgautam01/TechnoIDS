@@ -36,6 +36,14 @@
     align-items: center;
     z-index: 5;
 }
+.about-us-main-heading
+{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.76);
+    margin-bottom: 15px;
+
+}
 .about-us-main-txt
 {
     font-size: 25px;
