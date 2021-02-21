@@ -1,7 +1,11 @@
-/* header
+
+@media(max-width:600px)
 {
-    background: black;
-} */
+    header
+    {
+        background: black!important;
+    }
+}
 
 .about-us
 {
@@ -68,6 +72,43 @@
 
 }
 
+
+@media(max-width:600px)
+{
+   
+    
+   
+    .about-us-main-heading
+    {
+        font-size: 25px;
+     
+    
+    }
+    .about-us-main-txt
+    {
+        font-size: 18px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.76);
+    
+    }
+    
+    .about-us-sub-txt
+    {
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.76);
+    }
+    .about-us-greeting-txt
+    {
+        margin-top: 15px;
+        font-size: 25px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.76);
+    
+    }
+    
+}
 
 .client-heading
 {
