@@ -1,0 +1,96 @@
+body
+{
+    background: black;
+    color: white;
+}
+
+header
+{
+    background: black;
+}
+
+.first-container
+{
+    margin-top: 10em;
+}
+.first-container-inner
+{
+   
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.first-container-left
+{
+    width: 40%;
+    /* padding: 40px; */
+    max-width: 60%;
+    /* height: 500px;
+    width: 600px; */
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(68, 68, 68);
+
+}
+.first-container-right
+{
+    display: block;
+    width: 40%;
+}
+.fcr-sub-heading
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+.fcr-heading
+{
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    background-image: linear-gradient(to right top, #e7cf7e, #e0ca7d, #dac67c, #d3c17a, #cdbc79);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fcr-information
+{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.fcr-btns
+{
+background: rgb(41, 41, 41);
+margin-bottom: 10px;
+width: 70%;
+border-radius: 10px;
+padding: 17px 15px;
+font-size: 24px;
+color: rgba(255, 255, 255, 0.61);
+}
+.fcr-btns i
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.second-container
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.scl-ul-li
+{
+    color: rgba(255, 255, 255, 0.747);
+font-size: 17px;
+line-height: 1.87;
+}
