@@ -119,3 +119,36 @@
     color: rgba(255, 255, 255, 0.76);
     margin-top: 35px;
 }
+
+.contact-section-inner
+{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contact-form
+{
+    width: max-content;
+}
+
+.contact-form input
+{
+    border: 1px solid rgba(255, 209, 6, 0.658);
+    border-radius: 5px;
+    padding: 8px 8px;
+    font-size: 20px;
+    background: rgba(59, 59, 59, 0.568);
+}
+
+.contact-form button{
+    border: 1px solid rgba(255, 118, 6, 0.658);
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.473);
+    background: rgba(59, 59, 59, 0.568);
+
+}
