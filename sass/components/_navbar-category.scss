@@ -10,6 +10,16 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom: 1px solid $color-black-tertiary;
+  @media only screen and (max-width: 900px) {
+   position: fixed;
+   bottom:5.5rem;
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
+   border-bottom: none;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border-top: 1px solid $color-black-tertiary;
+  }
 }
 // ALLT THE  THREE NAV CONTAINERS
 .nav-item {
@@ -155,4 +165,10 @@
   flex-direction: column;
   flex-grow: 1;
   height: 100%;
+}
+
+#products{
+  @media only screen and (max-width: 900px) {
+   display: none;
+  }
 }

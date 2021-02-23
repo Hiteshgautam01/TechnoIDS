@@ -30,7 +30,6 @@ html,
 html a,
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -42,15 +41,10 @@ body {
 p {
   font-size: 15px;
   font-weight: 400;
-  /* font-family: Hind, sans-serif; */
+  font-family: Hind, sans-serif;
   color: #a6a7aa;
   line-height: 1.4;
   margin-bottom: 15px;
-}
-
-@font-face {
-  font-family: customFont;
-  src: url("/font/azonix-font/Azonix-1VB0.otf");
 }
 
 em,
@@ -58,12 +52,12 @@ li,
 li a {
   font-size: 16px;
   font-weight: 500;
-  /* font-family: Hind, sans-serif; */
+  font-family: Hind, sans-serif;
   color: #515769;
 }
 
 a {
-  /* font-family: Hind, sans-serif; */
+  font-family: Hind, sans-serif;
   color: #81848f;
   outline: 0;
 }
@@ -77,7 +71,7 @@ a:focus, a:hover, a:active {
   position: relative;
   font-size: 13px;
   font-weight: 600;
-  /* font-family: Hind, sans-serif; */
+  font-family: Hind, sans-serif;
   text-transform: uppercase;
 }
 .link:after {
@@ -93,7 +87,7 @@ a:focus, a:hover, a:active {
 span {
   font-size: 14px;
   font-weight: 400;
-  /* font-family: Hind, sans-serif; */
+  font-family: Hind, sans-serif;
   color: #bfc1c7;
 }
 
@@ -104,7 +98,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  /* font-family: Hind, sans-serif; */
+  font-family: Hind, sans-serif;
   color: #f3ff91;
   line-height: 1.4;
   margin: 0 0 15px;
@@ -328,6 +322,18 @@ h4 {
   border-bottom-right-radius: 10px;
   border-bottom: 1px solid #1b1e23;
 }
+@media only screen and (max-width: 900px) {
+  .nav-item-container {
+    position: fixed;
+    bottom: 5.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 1px solid #1b1e23;
+  }
+}
 
 .nav-item__category {
   align-self: stretch;
@@ -463,6 +469,67 @@ h4 {
   height: 100%;
 }
 
+@media only screen and (max-width: 900px) {
+  #products {
+    display: none;
+  }
+}
+
+.bottom-nav {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  position: fixed;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: #000;
+  display: flex;
+  overflow-x: auto;
+  text-transform: uppercase;
+  z-index: 1000;
+}
+@media only screen and (max-width: 900px) {
+  .bottom-nav {
+    width: 100%;
+    height: 5.5rem;
+  }
+}
+
+.bottom-nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: rgba(52, 52, 52, 0.8);
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.bottom-nav__link:hover {
+  background-color: #eeeeee;
+}
+
+.bottom-nav__link--active {
+  color: #009578;
+}
+
+.bottom-nav__icon {
+  font-size: 2rem;
+}
+
+.bottom-nav__text {
+  color: #fff;
+  font-weight: 500;
+}
+
 /*------------------------------------------------------------------
   	[Pricing]
 ------------------------------------------------------------------*/
@@ -517,15 +584,6 @@ h4 {
   background: #343434;
   padding: 50px;
 }
-.services-row
-{
-  background: #343434;
-}
-.service:hover
-{
-  background: rgb(255, 145, 0);
-  transition: 0.2s;
-}
 .service .service-element,
 .service .service-info {
   -webkit-transform: translate3d(0, 0, 0);
@@ -539,20 +597,8 @@ h4 {
   display: block;
   font-size: 30px;
   color: #999caa;
-  /* fill: #999caa; */
   margin-bottom: 30px;
-  width: 34px;
-  height: 34px;
 }
-
-.service .service-icon path{
-  /* fill: #999caa; */
-  stroke: #999caa;
-}
-/* .service .service-icon:hover
-{
-  color: black;
-} */
 .service:hover .service-element {
   opacity: 0;
   -webkit-transform: translate3d(0, -100%, 0);
@@ -784,8 +830,8 @@ h4 {
 
 /* Navbar Logo */
 .header .logo {
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
   float: left;
   max-height: 95px;
   line-height: 65px;
@@ -799,7 +845,7 @@ h4 {
 }
 .header .logo-img {
   display: inline-block;
-  width: 170px;
+  width: 146px;
   height: auto;
   max-width: 100%;
   max-height: 100%;
@@ -850,7 +896,7 @@ h4 {
   display: block;
   font-size: 13px;
   font-weight: 600;
-  /* font-family: Hind, sans-serif; */
+  font-family: Hind, sans-serif;
   color: #fff;
   text-transform: uppercase;
   line-height: 55px;
@@ -1137,13 +1183,10 @@ h4 {
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
-  font-family: customFont;
-
 }
 
 .carousel-title {
-  font-size: 70px;
-  font-family: customFont;
+  font-size: 80px;
   font-weight: 700;
   color: #fff;
   line-height: 1.1;
