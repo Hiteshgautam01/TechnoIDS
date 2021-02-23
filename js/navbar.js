@@ -77,25 +77,25 @@ $(document).ready(function () {
 });
 // CATEGORY A-2
 $(document).ready(function () {
-  $("#subcategoryA-2").mouseenter(function () {
-    $("#productCategoryA-2").stop().show();
+  $("#parent__door-lock").click(function () {
+    $("#productCategoryB-1").stop().show();
   });
 
-  $("#subcategoryA-2, #productCategoryA-2").mouseleave(function () {
+  $("#parent__door-lock, #productCategoryB-1").mouseleave(function () {
     if (!$("#category__product").is(":hover")) {
-      $("#productCategoryA-2").hide();
+      $("#productCategoryB-1").hide();
     }
   });
 });
 // CATEGORY A-3
 $(document).ready(function () {
-  $("#subcategoryA-3").mouseenter(function () {
-    $("#productCategoryA-3").stop().show();
+  $("#parent__hand-metal-detctors").click(function () {
+    $("#productCategoryC-3").stop().show();
   });
 
-  $("#subcategoryA-3, #productCategoryA-3").mouseleave(function () {
+  $("#parent__hand-metal-detctors, #productCategoryC-3").mouseleave(function () {
     if (!$("#category__product").is(":hover")) {
-      $("#productCategoryA-3").hide();
+      $("#productCategoryC-3").hide();
     }
   });
 });
