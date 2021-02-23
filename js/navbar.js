@@ -11,7 +11,19 @@ $(document).ready(function () {
     }
   });
 });
+// For Bottom When mouse hover on the products
+$(document).ready(function () {
+  $(".products").mouseenter(function () {
+    $("#toggler").stop().show();
+  });
 
+  $(".products, #toggler").mouseleave(function () {
+    if (!$("#toggler").is(":hover")) {
+      $(".products").trigger("mouseover");
+      $("#toggler").hide();
+    }
+  });
+});
 //------ TOGGLE PARENT CTAEGORY -------
 //FOR ACCESS
 $(document).ready(function () {
