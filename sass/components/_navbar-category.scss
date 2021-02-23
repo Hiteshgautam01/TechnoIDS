@@ -19,23 +19,38 @@
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
    border-top: 1px solid $color-black-tertiary;
+   width: 100vw;
+   flex-direction: column;
+   height: 80vh;
+
+   
+ 
   }
 }
 // ALLT THE  THREE NAV CONTAINERS
 .nav-item {
+ 
   &__category {
     align-self: stretch;
     background-color: rgba($color-black, 0.9);
     width: 24%;
     border-right: 1px solid $color-black-tertiary;
-    min-height: 80vh;
+    height: 80vh;
     font-family: "Poppins", sans-serif;
+    @media only screen and (max-width: 900px) {
+      height:23%;
+      width:100%
+    }
   }
   &__category-sub {
     background-color: $color-black;
     border-right: 1px solid $color-black-tertiary;
     width: 25%;
     height: 80vh;
+    @media only screen and (max-width: 900px) {
+      height:25%;
+      width:100%
+    }
   }
   &__category-sub-products {
     display: flex;
@@ -61,7 +76,12 @@
       border-radius: 20px; /* roundness of the scroll thumb */
       border: 3px solid $color-base; /* creates padding around scroll thumb */
     }
+    @media only screen and (max-width: 900px) {
+      height:50%;
+      width:100%
+    }
   }
+
 }
 
 // THE SINGLE PRODUCT
@@ -98,6 +118,11 @@
     }
   }
 }
+.product-link{
+  display: block;
+  height: max-content;
+  width: max-content;
+}
 
 // LIST CATEGORY STYLING
 .list-category {
@@ -113,10 +138,16 @@
     display: flex;
     position: relative;
     align-items: center;
-    padding: 2rem 3rem;
+    padding: 1.4rem 3rem;
     color: $color-heading-secondary;
     font-family: "Poppins", sans-serif;
     cursor: pointer;
+    &-main{
+      text-transform: uppercase;
+    }
+    @media only screen and (max-width: 900px) {
+      padding: 0.5rem 3rem;
+    }
   }
   &-item:hover {
     background-color: rgba($color-black-secondary, 0.9);
@@ -138,7 +169,7 @@
   background-color: $color-black-tertiary;
 }
 
-// SETTING TH E INITIAL DISPLAY PROPERTY TO NULL
+// SETTING THE INITIAL DISPLAY PROPERTY TO NULL
 #toggler {
   display: none;
 }

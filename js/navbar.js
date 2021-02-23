@@ -13,7 +13,7 @@ $(document).ready(function () {
 });
 // For Bottom When mouse hover on the products
 $(document).ready(function () {
-  $(".products").mouseenter(function () {
+  $(".products").click(function () {
     $("#toggler").stop().show();
   });
 
