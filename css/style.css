@@ -150,5 +150,6 @@
     font-size: 20px;
     color: rgba(255, 255, 255, 0.473);
     background: rgba(59, 59, 59, 0.568);
+    cursor: pointer;
 
 }
