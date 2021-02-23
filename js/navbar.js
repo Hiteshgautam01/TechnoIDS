@@ -65,11 +65,11 @@ $(document).ready(function () {
 // -----PRODUCT CATEGORY SHOW OR HIDE-----
 // CATEGORY A-1
 $(document).ready(function () {
-  $("#subcategoryA-1").mouseenter(function () {
+  $("#parent__biometric").click(function () {
     $("#productCategoryA-1").stop().show();
   });
 
-  $("#subcategoryA-1, #productCategoryA-1").mouseleave(function () {
+  $("#parent__biometric, #productCategoryA-1").mouseleave(function () {
     if (!$("#category__product").is(":hover")) {
       $("#productCategoryA-1").hide();
     }
