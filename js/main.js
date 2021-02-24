@@ -2,7 +2,7 @@ var currentActiveDiv=""
 var currentActiveDiv2=""
 
 
-
+$("#product-list").hide()
 
 $.fn.showFlex = function() {
     this.css('display','flex');
