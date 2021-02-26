@@ -306,29 +306,30 @@ cursor: pointer;
 {
     height: 80px;
     width: 80px;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .nav-dropdown-third-col-items a .ndtc-content
 {
    color: white;
    /* padding: 5px; */
-   max-height: 94px;
    padding:10px
 }
 .nav-dropdown-third-col-items a .ndtc-content p:nth-child(1)
 {
     margin-bottom: 2.3px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     color:rgba(255, 255, 255, 0.856)
 
 }
 .nav-dropdown-third-col-items a .ndtc-content p:nth-child(2)
 {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 1.25;
-
+    max-height: 50px;
+    /* background-color: green; */
+    overflow: hidden;
 }
 }
