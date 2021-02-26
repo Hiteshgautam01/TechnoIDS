@@ -312,22 +312,23 @@ cursor: pointer;
 .nav-dropdown-third-col-items a .ndtc-content
 {
    color: white;
-   font-size: 13px;
    /* padding: 5px; */
    max-height: 94px;
    padding:10px
 }
 .nav-dropdown-third-col-items a .ndtc-content p:nth-child(1)
 {
-    margin-bottom: -2px;
+    margin-bottom: 2.3px;
     font-weight: 500;
+    font-size: 18px;
     color:rgba(255, 255, 255, 0.856)
 
 }
 .nav-dropdown-third-col-items a .ndtc-content p:nth-child(2)
 {
-   
+    font-size: 15px;
     font-weight: 400;
+    line-height: 1.25;
 
 }
 }
