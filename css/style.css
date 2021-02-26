@@ -176,7 +176,7 @@
     left: 10%;
     background: rgba(27, 27, 27, 0.932);
 display: grid;
-grid-template-columns: 40% 8% 50%;
+grid-template-columns: 27% 20% 50%;
 grid-gap: 1%;
 padding-bottom: 20px;
 /* z-index: 2000000; */
@@ -189,6 +189,7 @@ border-radius: 10px;
     padding-left: 20px;
     padding-top: 20px;
 }
+
 
 .nav-dropdown-first-col-items
 {
@@ -205,6 +206,12 @@ padding: 15px 40px;
 font-size: 16px;
 border-radius: 10px;
 cursor: pointer;
+
+}
+
+.nav-dropdown-second-col
+{
+    padding-top: 20px;
 
 }
 
