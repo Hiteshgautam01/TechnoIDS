@@ -21,9 +21,9 @@ var navBar=`
           </button>
 
           <div class="logo">
-            <a class="logo-wrap" href="#body">
-              <img class="logo-img logo-img-main" src="./mainlogogogo.svg" alt="FlameOnePage Logo" />
-              <img class="logo-img logo-img-active" src="./mainlogogogo.svg" alt="FlameOnePage Dark Logo" />
+            <a class="logo-wrap" href="/">
+              <img class="logo-img logo-img-main" src="https://technoids.in/mainlogogogo.svg" alt="FlameOnePage Logo" />
+              <img class="logo-img logo-img-active" src="https://technoids.in/mainlogogogo.svg" alt="FlameOnePage Dark Logo" />
             </a>
           </div>
         </div>
