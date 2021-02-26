@@ -75,10 +75,10 @@ var navBar=`
 <div class="nav-dropdown" id="product-list">
   <div class="nav-dropdown-first-col">
       <div class="nav-dropdown-first-col-items">
-          <a href="" onmouseover="showSubCategory('#product-sub-category-1')">Attendance & Access Control
+          <a onmouseover="showSubCategory('#product-sub-category-1')">Attendance & Access Control
               Management</a>
-          <a href="" onmouseover="showSubCategory('#product-sub-category-2')">Security Inspection System</a>
-          <a href="" onmouseover="showSubCategory('#product-sub-category-3')">Parking Control System</a>
+          <a onmouseover="showSubCategory('#product-sub-category-2')">Security Inspection System</a>
+          <a onmouseover="showSubCategory('#product-sub-category-3')">Parking Control System</a>
 
       </div>
   </div>
@@ -87,27 +87,27 @@ var navBar=`
 
   <div class="nav-dropdown-second-col">
       <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-1">
-          <a href="" onmouseover="showSubCategoryItems('#product-items-1')" onclick="">Face Recognition
+          <a onmouseover="showSubCategoryItems('#product-items-1')" onclick="">Face Recognition
               Series</a>
-          <a href="" onmouseover="showSubCategoryItems('#product-items-2')" onclick="">Fingerprint Series</a>
-          <a href="" onmouseover="showSubCategoryItems('#product-items-3')" onclick="">Fingerprint and Card
+          <a onmouseover="showSubCategoryItems('#product-items-2')" onclick="">Fingerprint Series</a>
+          <a onmouseover="showSubCategoryItems('#product-items-3')" onclick="">Fingerprint and Card
               Series</a>
-          <a href="" onmouseover="showSubCategoryItems('#product-items-4')" onclick="">Smart Door Locks</a>
+          <a onmouseover="showSubCategoryItems('#product-items-4')" onclick="">Smart Door Locks</a>
       </div>
       <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-2">
-          <a href="" onmouseover="showSubCategoryItems('#product-items-5')" onclick="">Hand Held Metal
+          <a onmouseover="showSubCategoryItems('#product-items-5')" onclick="">Hand Held Metal
               detectors</a>
-          <a href="" onmouseover="showSubCategoryItems('#product-items-6')" onclick="">Door Frame Metal
+          <a onmouseover="showSubCategoryItems('#product-items-6')" onclick="">Door Frame Metal
               Detectors</a>
-          <a href="" onmouseover="showSubCategoryItems('#product-items-7')" onclick="">Tripod Barrier</a>
-          <a href="" onmouseover="showSubCategoryItems('#product-items-8')" onclick="">Flap Barrier</a>
-          <a href="" onmouseover="showSubCategoryItems('#product-items-9')" onclick="">Swing Barrier</a>
+          <a onmouseover="showSubCategoryItems('#product-items-7')" onclick="">Tripod Barrier</a>
+          <a onmouseover="showSubCategoryItems('#product-items-8')" onclick="">Flap Barrier</a>
+          <a onmouseover="showSubCategoryItems('#product-items-9')" onclick="">Swing Barrier</a>
 
       </div>
       <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-3">
-          <a href="" onmouseover="showSubCategoryItems('#product-items-10')" onclick="">Boom Barrier</a>
-          <a href="" onmouseover="showSubCategoryItems('#product-items-11')" onclick="">Toll Barrier</a>
-          <a href="" onmouseover="showSubCategoryItems('#product-items-12')" onclick="">UHF Card Reader</a>
+          <a onmouseover="showSubCategoryItems('#product-items-10')" onclick="">Boom Barrier</a>
+          <a onmouseover="showSubCategoryItems('#product-items-11')" onclick="">Toll Barrier</a>
+          <a onmouseover="showSubCategoryItems('#product-items-12')" onclick="">UHF Card Reader</a>
 
       </div>
 
