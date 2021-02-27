@@ -31,17 +31,17 @@ html a,
 body {
   -webkit-font-smoothing: antialiased;
 }
-
+@font-face {
+  font-family: customFont;
+  src: url("/font/azonix-font/Azonix-1VB0.otf");
+}
 body {
   position: relative;
   font-family: 'Poppins', sans-serif;
   background-color: #000;
 }
 
-@font-face {
-  font-family: customFont;
-  src: url("/font/azonix-font/Azonix-1VB0.otf");
-}
+
 p {
   font-size: 15px;
   font-weight: 400;
@@ -56,12 +56,12 @@ li,
 li a {
   font-size: 16px;
   font-weight: 500;
-  font-family: Hind, sans-serif;
+
   color: #515769;
 }
 
 a {
-  font-family: Hind, sans-serif;
+
   color: #81848f;
   outline: 0;
 }
@@ -75,7 +75,7 @@ a:focus, a:hover, a:active {
   position: relative;
   font-size: 13px;
   font-weight: 600;
-  font-family: Hind, sans-serif;
+
   text-transform: uppercase;
 }
 .link:after {
@@ -91,7 +91,7 @@ a:focus, a:hover, a:active {
 span {
   font-size: 14px;
   font-weight: 400;
-  font-family: Hind, sans-serif;
+
   color: #bfc1c7;
 }
 
@@ -102,7 +102,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: Hind, sans-serif;
+
   color: #f3ff91;
   line-height: 1.4;
   margin: 0 0 15px;
@@ -951,7 +951,7 @@ h4 {
   display: block;
   font-size: 13px;
   font-weight: 600;
-  font-family: Hind, sans-serif;
+
   color: #fff;
   text-transform: uppercase;
   line-height: 55px;

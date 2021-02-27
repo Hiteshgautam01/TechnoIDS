@@ -333,3 +333,21 @@ cursor: pointer;
     overflow: hidden;
 }
 }
+
+.service-icon
+{
+    width: 35px;
+    height: 35px;
+}
+
+.service-icon path
+{
+stroke-width: 2.5px;
+stroke: rgba(17, 17, 17, 0.911);
+}
+
+.services-title
+{
+    font-size: 20px;
+    font-weight: 400;
+}
