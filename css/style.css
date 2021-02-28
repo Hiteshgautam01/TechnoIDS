@@ -367,3 +367,21 @@ stroke: rgba(17, 17, 17, 0.911);
         background-image: url('/img/bg/bg3-3.jpg')!important;
     }
 }
+
+@media (max-width: 768px){
+
+    .carousel-title {
+        font-size: 44px;
+        text-align: center;
+    }
+    .carousel-centered {
+        position: absolute;
+        top: 34%;
+        left: 8vw;
+        -webkit-transform: translate3d(0, -50%, 0);
+        -moz-transform: translate3d(0, -50%, 0);
+        transform: translate3d(0, -50%, 0);
+        font-family: customFont;
+    }
+}
+
