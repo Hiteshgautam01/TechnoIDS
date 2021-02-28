@@ -351,3 +351,19 @@ stroke: rgba(17, 17, 17, 0.911);
     font-size: 20px;
     font-weight: 400;
 }
+
+@media(max-width:600px)
+{
+    .carousel-inner .item.full-screen:nth-child(1)
+    {
+        background-image: url('/img/bg/bg1-1.jpg')!important;
+    }
+    .carousel-inner .item.full-screen:nth-child(2)
+    {
+        background-image: url('/img/bg/bg2-2.jpg')!important;
+    }
+    .carousel-inner .item.full-screen:nth-child(3)
+    {
+        background-image: url('/img/bg/bg3-3.jpg')!important;
+    }
+}
