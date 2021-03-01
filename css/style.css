@@ -270,7 +270,7 @@ cursor: pointer;
    width: 100%;
    border-radius: 10px;
    padding: 8px;
-   max-height: 94px;
+   /* max-height: 94px; */
    overflow: hidden;
    padding:15px
 }
@@ -282,14 +282,28 @@ cursor: pointer;
 
 @media(max-width:800px)
 {
+    .nav-dropdown-first-col-items a
+{
+
+max-width: 100%;
+width: 90%;
+/* margin:auto; */
+margin: 8px auto;
+background-color: rgba(15, 15, 15, 0.938);
+padding: 15px 40px;
+
+}
     .nav-dropdown{
         grid-template-columns: unset;
         display: flex;
         flex-direction: column;
         overflow-y: scroll;
         max-height: 85vh;
-        left: 1px;
-        right: 1px;
+        left: 3px;
+        right: 3px;
+        max-width: 100%;
+        width: 98%;
+        margin: auto;
     }
  
     .nav-dropdown-first-col
@@ -298,6 +312,7 @@ cursor: pointer;
     padding-left: 5px;
     padding: 5px;
     padding-top: 20px;
+    max-width: 100%;
 }
 
 
@@ -313,7 +328,8 @@ cursor: pointer;
 {
    color: white;
    /* padding: 5px; */
-   padding:10px
+   padding:10px;
+   max-width: 100%;
 }
 .nav-dropdown-third-col-items a .ndtc-content p:nth-child(1)
 {
@@ -328,9 +344,9 @@ cursor: pointer;
     font-size: 13px;
     font-weight: 400;
     line-height: 1.25;
-    max-height: 50px;
+    /* max-height: 50px; */
     /* background-color: green; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 }
 
