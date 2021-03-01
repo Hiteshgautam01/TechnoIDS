@@ -99,12 +99,12 @@ line-height: 1.87;
 .contact-popup
 {
     position: fixed;
-    display: none;
+    display: flex;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    background: rgba(29, 29, 29, 0.596);
+    background: rgba(29, 29, 29, 0.795);
     z-index: 121312314;
 }
 .contact-popup-inner{
@@ -139,7 +139,17 @@ transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     max-width: 100%;
     width: 40%;
     border-radius: 8px;
+    animation: imagerotate 0.8s;
+}
 
+@keyframes imagerotate{
+    50% {
+        transform: rotateZ(0);
+      }
+      50% {
+        transform: rotateZ(100deg);
+      }
+    
 }
 
 @media(max-width:600px)

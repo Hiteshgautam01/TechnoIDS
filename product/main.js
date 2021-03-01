@@ -1,12 +1,12 @@
 $(document).on("click", "#contact-popup-close-btn", function () {
-
- $('#contact-popup').slideUp(800)
+console.log("welcome")
+ $('#contact-popup').hide(200)
 
 })
 
 function openContactPopup()
 {
-    $('#contact-popup').slideDown(800);
+    $('#contact-popup').show(500);
 }
 
 
