@@ -385,3 +385,8 @@ stroke: rgba(17, 17, 17, 0.911);
     }
 }
 
+
+footer .section-seperator
+{
+    display: none;
+}

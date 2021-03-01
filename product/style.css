@@ -144,6 +144,11 @@ transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
 @media(max-width:600px)
 {
+    .first-container-inner
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .contact-popup-img
 
 {
@@ -151,5 +156,23 @@ transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     width: 90%;
     border-radius: 8px;
 
+}
+.first-container-right
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.first-container-left
+{
+
+width: 100%;
+}
+.fcr-heading
+{
+    font-size: 35px;
+}
+.fcr-sub-heading {
+
+    text-align: center;
 }
 }
