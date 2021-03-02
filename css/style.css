@@ -296,6 +296,7 @@ padding: 15px 40px;
     .nav-dropdown{
         grid-template-columns: unset;
         display: flex;
+        position: relative;
         flex-direction: column;
         overflow-y: scroll;
         max-height: 85vh;
