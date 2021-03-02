@@ -12,9 +12,9 @@ body {
     right: 0;
     bottom: 0;
     background-color:#101010;
-    /* change if the mask should have another color then white */
+
     z-index: 990999999999999;
-    /* makes sure it stays on top */
+
  
   }
   

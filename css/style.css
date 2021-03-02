@@ -407,3 +407,83 @@ footer .section-seperator
 {
     display: none;
 }
+
+
+
+/* card */
+.services-section-inner
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background: #343434;
+
+}
+
+
+.services-card-container {
+    cursor: pointer;
+    height: 270px;
+    perspective: 600;
+    position: relative;
+    width:30%;
+  }
+  .services-card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+  }
+  .services-card:hover {
+    transform: rotateY(180deg);
+  }
+  .services-card .services-side {
+    backface-visibility: hidden;
+    /* border-radius: 6px; */
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+  }
+  .services-card .services-back {
+    background: black;
+    color: #ffffffd0;
+    text-align: center;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .services-boxes
+  {
+    background: #343434;
+
+      height: 270px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .services-section-icon
+  {
+      width: 50px;
+      height: 50px;
+  }
+
+ .services-section-title
+  {
+      font-size:20px;
+      margin-top:10px;
+      color: white;
+      font-weight: 500;
+      text-align: center;
+  }

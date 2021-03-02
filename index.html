@@ -10,11 +10,15 @@
   <meta content="TechnoIDS" name="description" />
   <meta content="TechnoIDS" name="author" />
   <!-- GOOGLE FONT POPPINS -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet" />
   <!-- <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css" /> -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="css/preloader.css" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
   <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -26,7 +30,7 @@
   <link href="css/style.css" rel="stylesheet" type="text/css" />
   <link href="./css/carousel.css" rel="stylesheet" type="text/css" />
   <script src="./js/svg-inject.min.js"></script>
-  
+
   <!-- // Materialize icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -36,16 +40,17 @@
 
 <body id="body" data-spy="scroll" data-target=".header">
   <!-- Preloader -->
-<div id="preloader">
-  <div id="status"><video autoplay muted preload="auto" loop>
-    <source src="./preloader.mp4.mp4" type="video/mp4">
-  </video></div>
-</div>
+  <div id="preloader">
+    <div id="status"><video autoplay muted preload="auto" loop>
+        <source src="./preloader.mp4.mp4" type="video/mp4">
+      </video></div>
+  </div>
   <header class="header navbar-fixed-top">
     <nav class="navbar" role="navigation">
       <div class="container">
         <div class="menu-container js_nav-item">
-          <button type="button" class="navbar-toggle" onclick="$('#product-list').hide()" data-toggle="collapse" data-target=".nav-collapse">
+          <button type="button" class="navbar-toggle" onclick="$('#product-list').hide()" data-toggle="collapse"
+            data-target=".nav-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="toggle-icon"></span>
           </button>
@@ -53,7 +58,8 @@
           <div class="logo">
             <a class="logo-wrap" href="#body">
               <img class="logo-img logo-img-main" src="https://technoids.in/mainlogogogo.svg" alt="FlameOnePage Logo" />
-              <img class="logo-img logo-img-active" src="https://technoids.in/mainlogogogo.svg" alt="FlameOnePage Dark Logo" />
+              <img class="logo-img logo-img-active" src="https://technoids.in/mainlogogogo.svg"
+                alt="FlameOnePage Dark Logo" />
             </a>
           </div>
         </div>
@@ -67,7 +73,7 @@
 					  </ul>
 					</div--->
 
-          <div class="menu-container" >
+          <div class="menu-container">
             <ul class="nav navbar-nav navbar-dark navbar-nav-right">
               <li class="js_nav-item nav-item " onmouseover="mouseinout('#product-list')">
                 <a class="nav-item-child nav-item-hover" href="#body">
@@ -97,451 +103,448 @@
             </ul>
           </div>
         </div>
-      </div>     
-    </nav>  
-
-<!--  nav bar dropdown -->
-
-<div class="nav-dropdown" id="product-list">
-  <div class="nav-dropdown-first-col">
-      <div class="nav-dropdown-first-col-items">
-          <a  onmouseover="showSubCategory('#product-sub-category-1')">Attendance & Access Control
-              Management</a>
-          <a  onmouseover="showSubCategory('#product-sub-category-2')">Security Inspection System</a>
-          <a  onmouseover="showSubCategory('#product-sub-category-3')">Parking Control System</a>
-
       </div>
-  </div>
+    </nav>
 
-  <!-- second col -->
+    <!--  nav bar dropdown -->
 
-  <div class="nav-dropdown-second-col">
-      <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-1">
+    <div class="nav-dropdown" id="product-list">
+      <div class="nav-dropdown-first-col">
+        <div class="nav-dropdown-first-col-items">
+          <a onmouseover="showSubCategory('#product-sub-category-1')">Attendance & Access Control
+            Management</a>
+          <a onmouseover="showSubCategory('#product-sub-category-2')">Security Inspection System</a>
+          <a onmouseover="showSubCategory('#product-sub-category-3')">Parking Control System</a>
+
+        </div>
+      </div>
+
+      <!-- second col -->
+
+      <div class="nav-dropdown-second-col">
+        <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-1">
           <a onmouseover="showSubCategoryItems('#product-items-1')" onclick="">Face Recognition
-              Series</a>
+            Series</a>
           <a onmouseover="showSubCategoryItems('#product-items-2')" onclick="">Fingerprint Series</a>
           <a onmouseover="showSubCategoryItems('#product-items-3')" onclick="">Fingerprint and Card
-              Series</a>
+            Series</a>
           <a onmouseover="showSubCategoryItems('#product-items-4')" onclick="">Smart Door Locks</a>
-      </div>
-      <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-2">
+        </div>
+        <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-2">
           <a onmouseover="showSubCategoryItems('#product-items-5')" onclick="">Hand Held Metal
-              detectors</a>
+            detectors</a>
           <a onmouseover="showSubCategoryItems('#product-items-6')" onclick="">Door Frame Metal
-              Detectors</a>
+            Detectors</a>
           <a onmouseover="showSubCategoryItems('#product-items-7')" onclick="">Tripod Barrier</a>
           <a onmouseover="showSubCategoryItems('#product-items-8')" onclick="">Flap Barrier</a>
           <a onmouseover="showSubCategoryItems('#product-items-9')" onclick="">Swing Barrier</a>
 
-      </div>
-      <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-3">
+        </div>
+        <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-3">
           <a onmouseover="showSubCategoryItems('#product-items-10')" onclick="">Boom Barrier</a>
           <a onmouseover="showSubCategoryItems('#product-items-11')" onclick="">Toll Barrier</a>
           <a onmouseover="showSubCategoryItems('#product-items-12')" onclick="">UHF Card Reader</a>
 
+        </div>
+
       </div>
 
-  </div>
+      <!-- third col -->
+      <div class="nav-dropdown-third-col">
 
-  <!-- third col -->
-  <div class="nav-dropdown-third-col">
-
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-1">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-1">
           <a href="https://technoids.in/query/atf-305-atf-305-atf-305-1k" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/ATF-305%20&%20ATF-305+%20&%20ATF-305%201k.png"
-                  alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>ATF-305 & ATF-305+ & ATF-305 1k</p>
-                  <p>Face Recognition Terminal with Access Control
-                    Supports upto 1k face templates
-                    2 more Variants</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/ATF-305%20&%20ATF-305+%20&%20ATF-305%201k.png" alt=""
+              class="ndtc-img">
+            <div class="ndtc-content">
+              <p>ATF-305 & ATF-305+ & ATF-305 1k</p>
+              <p>Face Recognition Terminal with Access Control
+                Supports upto 1k face templates
+                2 more Variants</p>
+            </div>
           </a> <a href="https://technoids.in/query/atf-686-atf-686-" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/ATF-686%20&%20ATF-686+.png" alt=""
-                  class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>ATF-686 & ATF-686+</p>
-                  <p>Face Recognition Terminal with built-in Access Control
-                    Supports upto 1500 face templates
-                    1 more Variants</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/ATF-686%20&%20ATF-686+.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>ATF-686 & ATF-686+</p>
+              <p>Face Recognition Terminal with built-in Access Control
+                Supports upto 1500 face templates
+                1 more Variants</p>
+            </div>
           </a> <a href="https://technoids.in/query/atf-395" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/ATF-395.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>ATF-395</p>
-                  <p>Face Recognition Terminal with built-in Access Control
-                    Supports upto 3k face templates</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/ATF-395.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>ATF-395</p>
+              <p>Face Recognition Terminal with built-in Access Control
+                Supports upto 3k face templates</p>
+            </div>
           </a> <a href="https://technoids.in/query/vf01" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/VF01.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>VF01</p>
-                  <p>Face Recognition Terminal with upto 3k face capacity
-                    4.3 inch Touch Screen
-                  </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/VF01.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>VF01</p>
+              <p>Face Recognition Terminal with upto 3k face capacity
+                4.3 inch Touch Screen
+              </p>
+            </div>
           </a> <a href="https://technoids.in/query/vf02" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/VF02.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>VF02</p>
-                  <p>Face Recognition Terminal with upto 3k face capacity
-                    4.3 inch Touch Screen
-                  </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/VF02.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>VF02</p>
+              <p>Face Recognition Terminal with upto 3k face capacity
+                4.3 inch Touch Screen
+              </p>
+            </div>
           </a> <a href="https://technoids.in/query/ultraface331" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/ULTRAFACE331.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>ULTRAFACE331</p>
-                  <p>Face Recognition Terminal with built-in Access Control
-                    3.97-inch touch screen
-                    300 face capacity
-                    1 more Variant</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/ULTRAFACE331.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>ULTRAFACE331</p>
+              <p>Face Recognition Terminal with built-in Access Control
+                3.97-inch touch screen
+                300 face capacity
+                1 more Variant</p>
+            </div>
           </a> <a href="https://technoids.in/query/ultraface341" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/ULTRAFACE341.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>ULTRAFACE341</p>
-                  <p>Face Recognition Terminal with built-in Access Control
-                    4.3-inch touch screen with Mask Detection
-                    1500 Face Capacity
-                    2 more Variants</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/ULTRAFACE341.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>ULTRAFACE341</p>
+              <p>Face Recognition Terminal with built-in Access Control
+                4.3-inch touch screen with Mask Detection
+                1500 Face Capacity
+                2 more Variants</p>
+            </div>
           </a> <a href="https://technoids.in/query/ultraface671" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/ULTRAFACE671.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>ULTRAFACE671</p>
-                  <p>ULtraFAce671 series face recognition terminal is a kind of access control device with
-                      large screen ratio,
-                      which supports 1:N face authentication. It can be mainly applied in multiple scenarios,
-                      such as dwellings,
-                      government buldings, Banks enterprises and so on. Variant 1: 6k Card and Face Capacity
-                      Variant 2: 6k Card
-                      and Face Capacity with GPRS Variant 3: 50k Card and Face Capacity</p>
-              </div>
-          </a> <a href="https://technoids.in/query/ultraface-607-671-mask-temperature-50k-" onmouseover=""
-              onclick="">
-              <img src="https://technoids.in/img/productimages/ULTRAFACE%20607%20&%20671(MASK+TEMPERATURE+50k).png"
-                  alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>ULTRAFACE 607 & 671(MASK+TEMPERATURE+50k)</p>
-                  <p>Face Recognition based Access Control System
-                    Massive 7-inch LCD touch screen
-                    Temperature Recognition and Mask Detection
-                    Upto 50k Face Capacity</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/ULTRAFACE671.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>ULTRAFACE671</p>
+              <p>ULtraFAce671 series face recognition terminal is a kind of access control device with
+                large screen ratio,
+                which supports 1:N face authentication. It can be mainly applied in multiple scenarios,
+                such as dwellings,
+                government buldings, Banks enterprises and so on. Variant 1: 6k Card and Face Capacity
+                Variant 2: 6k Card
+                and Face Capacity with GPRS Variant 3: 50k Card and Face Capacity</p>
+            </div>
+          </a> <a href="https://technoids.in/query/ultraface-607-671-mask-temperature-50k-" onmouseover="" onclick="">
+            <img src="https://technoids.in/img/productimages/ULTRAFACE%20607%20&%20671(MASK+TEMPERATURE+50k).png" alt=""
+              class="ndtc-img">
+            <div class="ndtc-content">
+              <p>ULTRAFACE 607 & 671(MASK+TEMPERATURE+50k)</p>
+              <p>Face Recognition based Access Control System
+                Massive 7-inch LCD touch screen
+                Temperature Recognition and Mask Detection
+                Upto 50k Face Capacity</p>
+            </div>
           </a>
-      </div>
+        </div>
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-2">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-2">
           <a href="https://technoids.in/query/ultrafp8503-ultrafpt20ac" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/ULTRAFP8503%20&%20ULTRAFPT20AC.png" alt=""
-                  class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>ULTRAFP8503 & ULTRAFPT20AC</p>
-                  <p>Fingerprint time attendance & access control terminal
-                    Upto 1k User Capacity
-                    2.4-inch LCD display</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/ULTRAFP8503%20&%20ULTRAFPT20AC.png" alt=""
+              class="ndtc-img">
+            <div class="ndtc-content">
+              <p>ULTRAFP8503 & ULTRAFPT20AC</p>
+              <p>Fingerprint time attendance & access control terminal
+                Upto 1k User Capacity
+                2.4-inch LCD display</p>
+            </div>
           </a> <a href="https://technoids.in/query/ultrafp802" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/ULTRAFP802.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>ULTRAFP802</p>
-                  <p>Fingerprint time attendance & access control terminal
-                    Upto 3k User Capacity
-                    2.8-inch LCD display</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/ULTRAFP802.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>ULTRAFP802</p>
+              <p>Fingerprint time attendance & access control terminal
+                Upto 3k User Capacity
+                2.8-inch LCD display</p>
+            </div>
           </a>
-      </div>
+        </div>
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-3">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-3">
           <a href="https://technoids.in/query/bioa10" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/BIOA10.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>BIOA10</p>
-                  <p>Fingerprint and card based terminal
-                    Upto 1k User Capacity
-                  </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/BIOA10.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>BIOA10</p>
+              <p>Fingerprint and card based terminal
+                Upto 1k User Capacity
+              </p>
+            </div>
           </a> <a href="https://technoids.in/query/bio-28" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/BIO-28.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>BIO-28</p>
-                  <p>Fingerprint and card based terminal
-                    Upto 500 User Capacity
-                    </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/BIO-28.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>BIO-28</p>
+              <p>Fingerprint and card based terminal
+                Upto 500 User Capacity
+              </p>
+            </div>
           </a> <a href="https://technoids.in/query/bio-12" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/BIO-12.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>BIO-12</p>
-                  <p>ID Card module for Bio 4 with dimension H120mm W57mm 
-                    D30mm.</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/BIO-12.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>BIO-12</p>
+              <p>ID Card module for Bio 4 with dimension H120mm W57mm
+                D30mm.</p>
+            </div>
           </a> <a href="https://technoids.in/query/bio-3" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/BIO-3.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>BIO-3</p>
-                  <p>User Capacity:5,000 (Fingerprint/Password/Card) Log Capacity:1,60,000
-                  </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/BIO-3.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>BIO-3</p>
+              <p>User Capacity:5,000 (Fingerprint/Password/Card) Log Capacity:1,60,000
+              </p>
+            </div>
           </a>
-      </div>
+        </div>
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-4">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-4">
           <a href="https://technoids.in/query/fgl14" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/FGL14.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>FGL14</p>
-                  <p>Password for opening door : 1,000 Units 
-                    Fingerprint for opening door : 500 Units 
-                    Cards for Opening door : 1,000 Units</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/FGL14.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>FGL14</p>
+              <p>Password for opening door : 1,000 Units
+                Fingerprint for opening door : 500 Units
+                Cards for Opening door : 1,000 Units</p>
+            </div>
           </a> <a href="https://technoids.in/query/thtl1000" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/THTL1000.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>THTL1000</p>
-                  <p>Aluminuim Alloy holding material with size of 280*72mm
-                    
-                  </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/THTL1000.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>THTL1000</p>
+              <p>Aluminuim Alloy holding material with size of 280*72mm
+
+              </p>
+            </div>
           </a> <a href="https://technoids.in/query/thtl2000" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/THTL2000.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>THTL2000</p>
-                  <p>Aluminuim Alloy holding material with size of 280*72mm
-                    with 6V four alkaline batteries
-                  </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/THTL2000.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>THTL2000</p>
+              <p>Aluminuim Alloy holding material with size of 280*72mm
+                with 6V four alkaline batteries
+              </p>
+            </div>
           </a>
-      </div>
+        </div>
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-5">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-5">
           <a href="https://technoids.in/query/tw-hh100" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-HH100.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-HH100</p>
-                  <p>Hand Held Metal Detector</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-HH100.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-HH100</p>
+              <p>Hand Held Metal Detector</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-hh100-battery" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-HH100%20+%20Battery.png" alt=""
-                  class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-HH100 + Battery</p>
-                  <p>Hand Held Metal Detector with battery</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-HH100%20+%20Battery.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-HH100 + Battery</p>
+              <p>Hand Held Metal Detector with battery</p>
+            </div>
           </a>
-      </div>
+        </div>
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-6">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-6">
           <a href="https://technoids.in/query/tw-d2101" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20D2101.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- D2101</p>
-                  <p>Detection Zone-1</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20D2101.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- D2101</p>
+              <p>Detection Zone-1</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-d2601" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20D2601.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- D2601</p>
-                  <p>Detection Zone-6</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20D2601.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- D2601</p>
+              <p>Detection Zone-6</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-d2121" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20D2121.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- D2121</p>
-                  <p>Detection Zone-12</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20D2121.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- D2121</p>
+              <p>Detection Zone-12</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-d2181" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20D2181.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- D2181</p>
-                  <p>Detection Zone-18</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20D2181.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- D2181</p>
+              <p>Detection Zone-18</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-at-iiid" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20AT%20IIID.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- AT IIID</p>
-                  <p>Detection Zone-18, outdoor model </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20AT%20IIID.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- AT IIID</p>
+              <p>Detection Zone-18, outdoor model </p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-d2331" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20D2331.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- D2331</p>
-                  <p>Detection Zone-33, outdoor model </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20D2331.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- D2331</p>
+              <p>Detection Zone-33, outdoor model </p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-d2331b" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20D2331B.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- D2331B</p>
-                  <p>Detection Zone-33, outdoor model with battery </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20D2331B.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- D2331B</p>
+              <p>Detection Zone-33, outdoor model with battery </p>
+            </div>
           </a>
-      </div>
+        </div>
 
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-7">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-7">
           <a href="https://technoids.in/query/tw-t1000" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-T1000.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-T1000</p>
-                  <p>Dimension: 480*280*980mm with unlocking time of 0.2 
-                    Second</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-T1000.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-T1000</p>
+              <p>Dimension: 480*280*980mm with unlocking time of 0.2
+                Second</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-t1200" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-T1200.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-T1200</p>
-                  <p>Dimension: 600 x 330 x 980 mm with lane Extender with a 
-                    pass rate of 35 person/minute</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-T1200.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-T1200</p>
+              <p>Dimension: 600 x 330 x 980 mm with lane Extender with a
+                pass rate of 35 person/minute</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-t2000" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-T2000.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-T2000</p>
-                  <p>Tripod Barrier with a Dimension of 1200x280x980mm</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-T2000.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-T2000</p>
+              <p>Tripod Barrier with a Dimension of 1200x280x980mm</p>
+            </div>
           </a>
-      </div>
+        </div>
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-8">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-8">
           <a href="https://technoids.in/query/tw-fb2000" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20FB2000.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- FB2000</p>
-                  <p>Flap Barrier with a Dimension of 1200x280x980mm</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20FB2000.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- FB2000</p>
+              <p>Flap Barrier with a Dimension of 1200x280x980mm</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-fb2200" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20FB2200.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- FB2200</p>
-                  <p>Flap Barrier with a Dimension of 1200x280x980mm with 
-                    lane Extender</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20FB2200.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- FB2200</p>
+              <p>Flap Barrier with a Dimension of 1200x280x980mm with
+                lane Extender</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-fb3000" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20FB3000.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- FB3000</p>
-                  <p>Flap Barrier with a Dimension of 1400x300x990mm</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20FB3000.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- FB3000</p>
+              <p>Flap Barrier with a Dimension of 1400x300x990mm</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-fb3300" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-%20FB3300.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW- FB3300</p>
-                  <p>Flap Barrier with a Dimension of 1400x300x990mm with 
-                    lane Extender</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-%20FB3300.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW- FB3300</p>
+              <p>Flap Barrier with a Dimension of 1400x300x990mm with
+                lane Extender</p>
+            </div>
           </a>
-      </div>
+        </div>
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-9">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-9">
           <a href="https://technoids.in/query/tw-sbt1000" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-SBT1000.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-SBT1000</p>
-                  <p>Swing Barrier with a Dimensions(mm) of L=985,W=200,
-                    H=1100</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-SBT1000.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-SBT1000</p>
+              <p>Swing Barrier with a Dimensions(mm) of L=985,W=200,
+                H=1100</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-sbt2000" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-SBT2000.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-SBT2000</p>
-                  <p>Swing Barrier with a Dimensions(mm) of 1200x280x980mm</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-SBT2000.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-SBT2000</p>
+              <p>Swing Barrier with a Dimensions(mm) of 1200x280x980mm</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-sbt2200" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-SBT2200.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-SBT2200</p>
-                  <p>Swing Barrier with a Dimensions(mm) of 1200x280x980mm 
-                    with Lane Extender</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-SBT2200.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-SBT2200</p>
+              <p>Swing Barrier with a Dimensions(mm) of 1200x280x980mm
+                with Lane Extender</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-sbt3000" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-SBT3000.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-SBT3000</p>
-                  <p>Swing Barrier with a Dimensions(mm) of 
-                    1400x185x1020mm</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-SBT3000.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-SBT3000</p>
+              <p>Swing Barrier with a Dimensions(mm) of
+                1400x185x1020mm</p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-sbt3300" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-SBT3300.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-SBT3300</p>
-                  <p>Swing Barrier with a Dimensions(mm) of 1400x185x1020mm 
-                    with Lane Extender</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-SBT3300.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-SBT3300</p>
+              <p>Swing Barrier with a Dimensions(mm) of 1400x185x1020mm
+                with Lane Extender</p>
+            </div>
           </a>
-      </div>
+        </div>
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-12">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-12">
           <a href="https://technoids.in/query/tipl-101" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TIPL%20101.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TIPL 101</p>
-                  <p>UHF Card reader with a proximity range of 0-5 M</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TIPL%20101.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TIPL 101</p>
+              <p>UHF Card reader with a proximity range of 0-5 M</p>
+            </div>
           </a> <a href="https://technoids.in/query/tipl-102" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TIPL%20102.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TIPL 102</p>
-                  <p>UHF Card reader with a proximity range of 5-15 M</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TIPL%20102.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TIPL 102</p>
+              <p>UHF Card reader with a proximity range of 5-15 M</p>
+            </div>
           </a> <a href="https://technoids.in/query/ultrauhf06" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/UltraUHF06.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>UltraUHF06</p>
-                  <p>UHF High Performance Middle Range Reader Proximity Range 5-6 M</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/UltraUHF06.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>UltraUHF06</p>
+              <p>UHF High Performance Middle Range Reader Proximity Range 5-6 M</p>
+            </div>
           </a> <a href="https://technoids.in/query/ultrauhf12" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/UltraUHF12.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>UltraUHF12</p>
-                  <p>UHF Hight Performance Long Range Reader Proximity Range 12-15 M</p>
-              </div>
+            <img src="https://technoids.in/img/productimages/UltraUHF12.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>UltraUHF12</p>
+              <p>UHF Hight Performance Long Range Reader Proximity Range 12-15 M</p>
+            </div>
           </a>
-      </div>
+        </div>
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-11">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-11">
           <a href="https://technoids.in/query/tw-pb3010" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-PB3010.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-PB3010</p>
-                  <p>3M straight aluminium alloy arm 0.9 Seconds opening/closing time  </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-PB3010.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-PB3010</p>
+              <p>3M straight aluminium alloy arm 0.9 Seconds opening/closing time </p>
+            </div>
           </a>
-      </div>
+        </div>
 
-      <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-10">
+        <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-10">
           <a href="https://technoids.in/query/tw-pb3030" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-PB3030.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-PB3030</p>
-                  <p>Die-casting aluminium alloy motor with a 3 Seconds 
-                    opening/closing time </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-PB3030.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-PB3030</p>
+              <p>Die-casting aluminium alloy motor with a 3 Seconds
+                opening/closing time </p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-pb6060" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-PB6060.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-PB6060</p>
-                  <p>6 Seconds opening/closing time with auto closing </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-PB6060.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-PB6060</p>
+              <p>6 Seconds opening/closing time with auto closing </p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-pb4060fl" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-PB4060FL.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-PB4060FL</p>
-                  <p> Folding type Boom Barrier with opening time of 6 Second </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-PB4060FL.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-PB4060FL</p>
+              <p> Folding type Boom Barrier with opening time of 6 Second </p>
+            </div>
           </a> <a href="https://technoids.in/query/tw-pb4060fs" onmouseover="" onclick="">
-              <img src="https://technoids.in/img/productimages/TW-PB4060FS.png" alt="" class="ndtc-img">
-              <div class="ndtc-content">
-                  <p>TW-PB4060FS</p>
-                  <p>Fencing type Boom Barrier with opening time of 6 Second  </p>
-              </div>
+            <img src="https://technoids.in/img/productimages/TW-PB4060FS.png" alt="" class="ndtc-img">
+            <div class="ndtc-content">
+              <p>TW-PB4060FS</p>
+              <p>Fencing type Boom Barrier with opening time of 6 Second </p>
+            </div>
           </a>
+        </div>
+
+
       </div>
+    </div>
 
-
-  </div>
-</div>
-   
   </header>
 
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -575,7 +578,7 @@
             <div class="margin-b-40">
               <h2 class="carousel-title">Biometric <br>Security</h2>
               <p class="color-white">
-                UltraFace671, UltraFace331 & more 
+                UltraFace671, UltraFace331 & more
               </p>
             </div>
             <!-- <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a> -->
@@ -590,7 +593,7 @@
             <div class="margin-b-40">
               <h2 class="carousel-title">Security <br>Doors</h2>
               <p class="color-white">
-                TW-D2101 1 ZONE, 
+                TW-D2101 1 ZONE,
               </p>
             </div>
             <!-- <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Take a Tour</a> -->
@@ -655,7 +658,9 @@
             <div class="margin-t-50 margin-b-30">
               <h2>Why Us?</h2>
               <p>
-                We believe in creating a value system with our customers. We weigh these customer satisfaction reviews equal to our impact created in providing highest quality products and services. We are the most trusted OEM brands’ across India.
+                We believe in creating a value system with our customers. We weigh these customer satisfaction reviews
+                equal to our impact created in providing highest quality products and services. We are the most trusted
+                OEM brands’ across India.
               </p>
             </div>
             <!-- <a href="#" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">More...</a> -->
@@ -675,7 +680,8 @@
                   </div>
                   <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
-                      We are the one stop solution to all your security and OEM related needs. We ensure a trustworthy relationship by providing best services in security and attendance systems.
+                      We are the one stop solution to all your security and OEM related needs. We ensure a trustworthy
+                      relationship by providing best services in security and attendance systems.
                     </div>
                   </div>
                 </div>
@@ -690,7 +696,8 @@
                   </div>
                   <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                     <div class="panel-body">
-                      Of all the OEMs, we have the strictest quality control measures because of which our customer retention is a staggering 100%.
+                      Of all the OEMs, we have the strictest quality control measures because of which our customer
+                      retention is a staggering 100%.
                     </div>
                   </div>
                 </div>
@@ -707,7 +714,8 @@
                   <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
                     aria-labelledby="headingThree">
                     <div class="panel-body">
-                      We excel in providing services in the domain of payroll management whilst being ranked amongst the top by customers across all sections.
+                      We excel in providing services in the domain of payroll management whilst being ranked amongst the
+                      top by customers across all sections.
                     </div>
                   </div>
                 </div>
@@ -722,8 +730,8 @@
   </div>
   <!-- End About -->
 
-   <!-- Services -->
-   <div id="services">
+  <!-- Services -->
+  <div id="services">
     <div class="bg-color-dark" data-auto-height="true">
       <div class="content-lg container">
         <div class="row margin-b-40">
@@ -738,178 +746,166 @@
         </div>
         <!--// end row -->
 
-       <div class="services-row">
-        <div class="row row-space-1">
-          <div class="col-sm-4 sm-margin-b-2">
-            <div class="service" style="height:200px!important" >
-              <div class="service-element">
-               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/users.svg">
-              </div>
-              <div class="service-info">
-                <h3 class="color-white services-title">Employee Database</h3>
-                <!-- <p class="color-white margin-b-5">
-                  Lorem ipsum dolor amet consectetur ut consequat siad
-                  esqudiat dolor
-                </p> -->
-              </div>
-              <a class="content-wrapper-link"></a>
-            </div>
-          </div>
-          <div class="col-sm-4 sm-margin-b-2">
-            <div class="service" style="height:200px!important" >
-              <div class="service-element">
-               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/dollar-sign.svg">
-              </div>
-              <div class="service-info">
-                <h3 class="color-white services-title">Payroll Processing</h3>
-                <!-- <p class="color-white margin-b-5">
-                  Lorem ipsum dolor amet consectetur ut consequat siad
-                  esqudiat dolor
-                </p> -->
-              </div>
-              <a class="content-wrapper-link"></a>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="service" style="height:200px!important" >
-              <div class="service-element">
-                <img class="service-icon" onload="SVGInject(this)" src="./img/icons/calender.svg">
-              </div>
-              <div class="service-info">
-                <h3 class="color-white services-title">Time & Attendance</h3>
-                <!-- <p class="color-white margin-b-5">
-                  Lorem ipsum dolor amet consectetur ut consequat siad
-                  esqudiat dolor
-                </p> -->
-              </div>
-              <a class="content-wrapper-link"></a>
-            </div>
-          </div>
-        </div>
-        <!--// end row -->
+        <div class="services-section">
+          <div class="services-section-inner">
 
-        <div class="row row-space-1">
-          <div class="col-sm-4 sm-margin-b-2">
-            <div class="service" data-height="height">
-              <div class="service-element">
-               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/briefcase.svg">
+            <div class="services-card-container">
+              <div class="services-card">
+                <div class="services-side">
+                  <div class="services-boxes">
+                      <img class="services-section-icon" onload="SVGInject(this)" src="./img/icons/users.svg">
+                      <h3 class="services-section-title">Employee Database</h3>
+            
+                  </div>
+
+                </div>
+                <div class="services-side services-back">"Employee Self Service is a part of the service provided 
+                  by us at TechnoIDS, providing a self service protal as a 
+                  part of the software that the employees have access to.
+                  Employees can access their payroll, schedules, and 
+                  benefits information, make updates to their own details
+                  and more. "                  
+                
+                  </div>
               </div>
-              <div class="service-info">
-                <h3 class="color-white services-title">Leave Management</h3>
-                <!-- <p class="color-white margin-b-5">
-                  Lorem ipsum dolor amet consectetur ut consequat siad
-                  esqudiat dolor
-                </p> -->
-              </div>
-              <a class="content-wrapper-link"></a>
             </div>
-          </div>
-          <div class="col-sm-4 sm-margin-b-2">
-            <div class="service" style="height:200px!important" >
-              <div class="service-element">
-               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/check-circle.svg">
+
+            <div class="services-card-container">
+              <div class="services-card">
+                <div class="services-side">
+                  <div class="services-boxes">
+                      <img class="services-section-icon" onload="SVGInject(this)" src="./img/icons/calender.svg">
+                      <h3 class="services-section-title">Time & Attendance Management
+                      </h3>
+                  </div>
+
+                </div>
+                <div class="services-side services-back">We at TechnoIDS facilitate the software to capture 
+                  attendance related data from different sources like 
+                  swipe card, biometric System. We also manage
+                  Employee Attendance, Permission, Late Coming,
+                  Overtime, Leave, Compensatory Off in relation to 
+                  real time integration with biometric/Attendance 
+                  Machines.
+                  
+                  
+                  </div>
               </div>
-              <div class="service-info">
-                <h3 class="color-white services-title">Claim & Reimbursement Management Software</h3>
-                <!-- <p class="color-white margin-b-5">
-                  Lorem ipsum dolor amet consectetur ut consequat siad
-                  esqudiat dolor
-                </p> -->
-              </div>
-              <a class="content-wrapper-link"></a>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="service" data-height="height">
-              <div class="service-element">
-               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/external-link.svg">
+
+            <div class="services-card-container">
+              <div class="services-card">
+                <div class="services-side">
+                  <div class="services-boxes">
+                      <img class="services-section-icon" onload="SVGInject(this)" src="./img/icons/dollar-sign.svg">
+                      <h3 class="services-section-title">Payroll Processing
+                      </h3>
+                  </div>
+
+                </div>
+                <div class="services-side services-back">Payroll processing is one of the most important, 
+                  complex, and time-consuming procedures in 
+                  finance and accounting. Keeping this up-to-date
+                  and accurate is an important obligation for any 
+                  company or industry. We use state of the art 
+                  software that compliments the professional
+                  competence of our payroll processing team to give 
+                  our client 100% accurate and customized service. 
+                  
+                  
+                  </div>
               </div>
-              <div class="service-info">
-                <h3 class="color-white services-title">Exit Management</h3>
-                <!-- <p class="color-white margin-b-5">
-                  Lorem ipsum dolor amet consectetur ut consequat siad
-                  esqudiat dolor
-                </p> -->
-              </div>
-              <a class="content-wrapper-link"></a>
             </div>
+
+            <div class="services-card-container">
+              <div class="services-card">
+                <div class="services-side">
+                  <div class="services-boxes">
+                      <img class="services-section-icon" onload="SVGInject(this)" src="./img/icons/briefcase.svg">
+                      <h3 class="services-section-title">Leave Management
+                      </h3>
+                  </div>
+
+                </div>
+                <div class="services-side services-back">One of the best way to ensure easy scheduling at a glance is with 
+                  realiable leave mangment service. With the Leave Managment 
+                  Service both employee and the employer benefit by easy 
+                  scheduling tracking employees time and time out and managing 
+                  time and attendance seamlessly. The service increases 
+                  productivity and reduces doubling up on work.  </div>
+              </div>
+            </div>
+
+            <div class="services-card-container">
+              <div class="services-card">
+                <div class="services-side">
+                  <div class="services-boxes">
+                      <img class="services-section-icon" onload="SVGInject(this)" src="./img/icons/check-circle.svg">
+                      <h3 class="services-section-title">Claim & Reimbursement Management
+                      </h3>
+                  </div>
+
+                </div>
+                <div class="services-side services-back">Empowering employees with ESS allows them to
+                  submit their expenses on a regular basis for 
+                  approval by concerned authority rather than at the 
+                  end of the month, saving immense time and 
+                  paperwork at the end of the month.
+                  
+                  
+                   </div>
+              </div>
+            </div>
+
+            <div class="services-card-container">
+              <div class="services-card">
+                <div class="services-side">
+                  <div class="services-boxes">
+                      <img class="services-section-icon" onload="SVGInject(this)" src="./img/icons/smartphone.svg">
+                      <h3 class="services-section-title">Mobile Application
+                      </h3>
+                  </div>
+
+                </div>
+                <div class="services-side services-back">TechnoIDS provides user with a cutting edge employee benefits 
+                  Mobile App, with access to self-service tools, a document library
+                  and current news updates using the media of their choice. 
+                  
+                  
+                  </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
-        <!--// end row -->
-        <div class="row row-space-1">
-          <div class="col-sm-4 sm-margin-b-2">
-            <div class="service" style="height:200px!important" >
-              <div class="service-element">
-               <img class="service-icon" onload="SVGInject(this)" src="./img/icons/user-check.svg">
-              </div>
-              <div class="service-info">
-                <h3 class="color-white services-title">Employee Self Service</h3>
-                <!-- <p class="color-white margin-b-5">
-                  Lorem ipsum dolor amet consectetur ut consequat siad
-                  esqudiat dolor
-                </p> -->
-              </div>
-              <a class="content-wrapper-link"></a>
-            </div>
-          </div>
-          <div class="col-sm-4 sm-margin-b-2">
-            <div class="service" style="height:200px!important" >
-              <div class="service-element">
-                <img class="service-icon" onload="SVGInject(this)" src="./img/icons/smartphone.svg">
-              </div>
-              <div class="service-info">
-                <h3 class="color-white services-title">Mobile Application</h3>
-                <!-- <p class="color-white margin-b-5">
-                  Lorem ipsum dolor amet consectetur ut consequat siad
-                  esqudiat dolor
-                </p> -->
-              </div>
-              <a class="content-wrapper-link"></a>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="service" style="height:200px!important" >
-              <div class="service-element">
-                <img class="service-icon" onload="SVGInject(this)" src="./img/icons/book-open.svg">
-              </div>
-              <div class="service-info">
-                <h3 class="color-white services-title">TDS Management Software</h3>
-                <!-- <p class="color-white margin-b-5">
-                  Lorem ipsum dolor amet consectetur ut consequat siad
-                  esqudiat dolor
-                </p> -->
-              </div>
-              <a class="content-wrapper-link"></a>
-            </div>
-          </div>
-        </div>
-        <!--// end row -->
-       </div>
       </div>
     </div>
   </div>
   <!-- End Service -->
 
-<!-- starting of about us section  -->
+  <!-- starting of about us section  -->
 
-<div class="about-us" id="about-us">
-  <div class="about-us-inner">
-    <div class="about-us-main-heading">
-      About Us
-    </div>
-    <div class="about-us-main-txt">
-      We are a group of Engineers, Architects, Lawyers and Marketing chaps who hold an enthusiasm of creating the best quality products and launching them in the market. Our core values are of customer satisfaction and support and hence we deliver long term commitments.
-  
-    </div>
-    <div class="about-us-sub-txt">
-      We don’t deal with products, we deal with people’s hearts and smiles :)
-    </div>
-    <div class="about-us-greeting-txt">
-      Happy Shopping!
+  <div class="about-us" id="about-us">
+    <div class="about-us-inner">
+      <div class="about-us-main-heading">
+        About Us
+      </div>
+      <div class="about-us-main-txt">
+        We are a group of Engineers, Architects, Lawyers and Marketing chaps who hold an enthusiasm of creating the best
+        quality products and launching them in the market. Our core values are of customer satisfaction and support and
+        hence we deliver long term commitments.
+
+      </div>
+      <div class="about-us-sub-txt">
+        We don’t deal with products, we deal with people’s hearts and smiles :)
+      </div>
+      <div class="about-us-greeting-txt">
+        Happy Shopping!
+      </div>
     </div>
   </div>
-  </div>
-  
+
   <!-- ending of about us section  -->
   <div class="spacing-5" style="height: 5em;"></div>
 
@@ -960,7 +956,7 @@
             <button class="shop-now">Details</button>
           </div>
         </div>
-       
+
         <div class="product">
           <div class="product-top">
             <img class="product-image" src="./img/productimages/TW-HH100.png" />
@@ -993,7 +989,7 @@
             <button class="shop-now">Details</button>
           </div>
         </div>
-      
+
         <div class="product">
           <div class="product-top">
             <img class="product-image" src="./img/productimages/ULTRAFACE671(MASK+TEMPERATURE+50k).png" />
@@ -1107,7 +1103,7 @@
         </div>
         <!-/- End Latest Products -/->
       </div> -->
-      <!-/-// end row -/->
+      <!- /-// end row -/->
     </div>
   </div>
   <!-- End Latest Products -->
@@ -1532,7 +1528,7 @@
         <!-/- End Masonry Grid -/->
       </div>
     </div> -->
-<div class="client-heading">Brands who value our relationship</div>
+    <div class="client-heading">Brands who value our relationship</div>
     <!-- Clients -->
     <div class="content-lg container">
       <!-- Swiper Clients -->
@@ -1566,7 +1562,7 @@
   </div>
   <!-- End Work -->
 
- 
+
 
 
 
@@ -1579,7 +1575,7 @@
           <!-- Contact List -->
           <div class="col-sm-4 sm-margin-b-50">
             <h3>
-              <a >TechnoIDS Sales Team</a>
+              <a>TechnoIDS Sales Team</a>
               <span class="text-uppercase margin-l-20"></span>
             </h3>
             <!-- <p>
@@ -1601,7 +1597,7 @@
 
           <!-- Contact List -->
           <div class="col-sm-4 sm-margin-b-50">
-           
+
           </div>
           <!-- End Contact List -->
 
@@ -1614,7 +1610,7 @@
       </div>
     </div>
     <!-- End Contact List -->
-    
+
     <!-- Google Map -->
     <div class="map height-300">
       <iframe
@@ -1643,11 +1639,11 @@
   <footer class="footer">
     <!-- Links -->
     <!-- <div class="section-seperator"> -->
-      <!-- <div class="content-md container"> -->
-        <!-- <div class="row"> -->
-          <!-- <div class="col-sm-2 sm-margin-b-30"> -->
-            <!-- List -->
-            <!-- <ul class="list-unstyled footer-list">
+    <!-- <div class="content-md container"> -->
+    <!-- <div class="row"> -->
+    <!-- <div class="col-sm-2 sm-margin-b-30"> -->
+    <!-- List -->
+    <!-- <ul class="list-unstyled footer-list">
               <li class="footer-list-item"><a href="#body">Home</a></li>
               <li class="footer-list-item"><a href="#about-us">About us</a></li>
               <li class="footer-list-item">
@@ -1655,9 +1651,9 @@
               </li>
               <li class="footer-list-item"><a href="#contact">Contact</a></li>
             </ul> -->
-            <!-- End List -->
-          <!-- </div> -->
-          <!-- <div class="col-sm-2 sm-margin-b-30">
+    <!-- End List -->
+    <!-- </div> -->
+    <!-- <div class="col-sm-2 sm-margin-b-30">
             <!-/- List -/->
             <ul class="list-unstyled footer-list">
               <li class="footer-list-item"><a href="#">Twitter</a></li>
@@ -1667,7 +1663,7 @@
             </ul>
             <!-/- End List -/->
           </div> -->
-          <!-- <div class="col-sm-3">
+    <!-- <div class="col-sm-3">
             <!-/- List -/->
             <ul class="list-unstyled footer-list">
               <li class="footer-list-item">
@@ -1680,9 +1676,9 @@
             </ul>
             <!-/- End List -/->
           </div> -->
-        <!-- </div> -->
-        <!--// end row -->
-      <!-- </div> -->
+    <!-- </div> -->
+    <!--// end row -->
+    <!-- </div> -->
     <!-- </div> -->
     <!-- End Links -->
 
@@ -1757,7 +1753,8 @@
   <script src="js/components/masonry.min.js" type="text/javascript"></script>
   <script src="js/navbar.js" type="text/javascript"></script>
   <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script> -->
-  <script src='https://kenwheeler.github.io/slick/slick/slick.js'></script><script  src="./script.js"></script>
+  <script src='https://kenwheeler.github.io/slick/slick/slick.js'></script>
+  <script src="./script.js"></script>
   <script src="./js/carousel.js"></script>
   <script src="./js/main.js"></script>
 </body>
