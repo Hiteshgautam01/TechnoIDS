@@ -99,7 +99,7 @@ line-height: 1.87;
 .contact-popup
 {
     position: fixed;
-    display: flex;
+    display: none;
     top: 0;
     right: 0;
     left: 0;
