@@ -419,7 +419,7 @@ footer .section-seperator
     align-items: center;
     width: 100%;
     margin: auto;
-    background: #343434;
+    /* background: #343434; */
 
 }
 
@@ -429,13 +429,14 @@ footer .section-seperator
     height: 270px;
     perspective: 600;
     position: relative;
-    width:30%;
+    width:33%;
+    margin-bottom: 5px;
   }
   .services-card {
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
-    transition: all 1s ease-in-out;
+    transition: all 0.8s ease-in-out;
     width: 100%;
   }
   .services-card:hover {
@@ -450,7 +451,7 @@ footer .section-seperator
     width: 100%;
   }
   .services-card .services-back {
-    background: black;
+    background: rgb(27, 27, 27);
     color: #ffffffd0;
     text-align: center;
     transform: rotateY(180deg);
