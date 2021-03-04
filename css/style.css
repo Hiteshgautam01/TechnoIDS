@@ -168,7 +168,7 @@
 }
 .nav-dropdown
 {
-    position: fixed;
+    position: absolute;
     top:90px;
     /* bottom: 0; */
     max-height: 85vh;
