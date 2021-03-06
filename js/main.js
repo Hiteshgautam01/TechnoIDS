@@ -59,3 +59,8 @@ else{
 
 
 
+$('#product-list').mouseleave(function(event) {
+    $(this).hide()
+    mousevisited=false
+  });
+
