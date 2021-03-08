@@ -46,23 +46,23 @@ var navBar=`
           </li>
 
           <li class="js_nav-item nav-item">
-            <a class="nav-item-child nav-item-hover" href="#about-us">About us</a>
+            <a class="nav-item-child nav-item-hover" href="/#about-us">About us</a>
           </li>
           <!-- <li class="js_nav-item nav-item">
             <a class="nav-item-child nav-item-hover" href="#about">Team</a>
           </li> -->
           <li class="js_nav-item nav-item">
-            <a class="nav-item-child nav-item-hover" href="#services">Services</a>
+            <a class="nav-item-child nav-item-hover" href="/#services">Services</a>
           </li>
 
           <!-- <li class="js_nav-item nav-item">
-            <a class="nav-item-child nav-item-hover" href="#work">Credentials</a>
+            <a class="nav-item-child nav-item-hover" href="/#work">Credentials</a>
           </li> -->
           <!-- <li class="js_nav-item nav-item">
-            <a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a>
+            <a class="nav-item-child nav-item-hover" href="/#pricing">Pricing</a>
           </li> -->
           <li class="js_nav-item nav-item">
-            <a class="nav-item-child nav-item-hover" href="#contact">Contact</a>
+            <a class="nav-item-child nav-item-hover" href="/#contact">Contact</a>
           </li>
         </ul>
       </div>
