@@ -515,3 +515,19 @@ var navBar=`
 </header>`
 
 document.getElementById("nav-bar-generated").innerHTML=navBar
+
+var contactPopup=`
+<div class="contact-us-form" id="contact-us-popup">
+<div class="contact-form-inner">
+  <div class="contact-form-popup-header"><span>Raise a query</span><span onclick="$('#contact-us-popup').hide(300)">x</span></div>
+  <div class="contact-form-popup">
+    <input type="text" placeholder="Enter your name" >
+    <input type="text" placeholder="Enter your company name" >
+    <input type="text" placeholder="Enter your location" >
+    <input type="number" placeholder="Enter no. of unit required" >
+    <button type="submit">Submit</button>
+  </div>
+</div>
+</div>`
+
+document.getElementById("generated-contact-popup").innerHTML=contactPopup

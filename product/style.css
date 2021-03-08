@@ -189,5 +189,79 @@ width: 100%;
 
 
 
+.contact-us-form
+{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+z-index: 9;
+display: none;
+background: rgba(0, 0, 0, 0.233);
+}
 
+.contact-form-inner
+{
+    width: 40%;
+    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(20, 20, 20);
+  padding: 90px 10px;
+  padding-bottom: 40px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+.contact-form-popup
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
 
+.contact-form-popup input
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:12px 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    border:1px solid black;
+    background: black;
+    font-weight: 400;
+}
+
+.contact-form-popup button
+{
+    margin-top: 5px;
+    padding:15px 5px;
+    border-radius: 8px;
+    color: white;
+    border:1px solid black;
+    background: rgb(206, 146, 16);
+    font-size: 20px;
+}
+.contact-form-popup-header
+{
+    position: absolute;
+    top: 0;
+    height: 60px;
+    background: rgb(206, 146, 16);
+left: 0;
+right: 0;
+text-align: center;
+display: flex;
+justify-content: space-between;
+padding:0px 15px;
+align-items: center;
+
+}
+.contact-form-popup-header span
+{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
