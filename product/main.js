@@ -525,6 +525,9 @@ var contactPopup=`
     <input type="text" placeholder="Enter your company name" >
     <input type="text" placeholder="Enter your location" >
     <input type="number" placeholder="Enter no. of unit required" >
+    <input type="email" placeholder="Enter your mail-id" >
+    <input type="number" placeholder="Enter your number" >
+
     <button type="submit">Submit</button>
   </div>
 </div>
