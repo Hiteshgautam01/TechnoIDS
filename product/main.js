@@ -516,7 +516,7 @@ var navBar=`
 
 document.getElementById("nav-bar-generated").innerHTML=navBar
 
-$("#contact-us-popup").hide()
+// $("#contact-us-popup").hide()
 
 var contactPopup=`
 <div class="contact-us-form" id="contact-us-popup">
