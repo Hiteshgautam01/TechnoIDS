@@ -519,7 +519,7 @@ document.getElementById("nav-bar-generated").innerHTML=navBar
 // $("#contact-us-popup").hide()
 
 var contactPopup=`
-<div class="contact-us-form" id="contact-us-popup">
+<div class="contact-us-form" style="display: none;" id="contact-us-popup">
 <div class="contact-form-inner">
   <div class="contact-form-popup-header"><span>Raise a query</span><span onclick="$('#contact-us-popup').hide(300)">x</span></div>
   <div class="contact-form-popup">
