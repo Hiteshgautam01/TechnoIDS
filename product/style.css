@@ -268,3 +268,9 @@ align-items: center;
     font-weight: 500;
     color: black;
 }
+
+.contact-form-popup-header span:nth-child(2)
+{
+    cursor: pointer;
+}
+
