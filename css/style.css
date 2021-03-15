@@ -497,3 +497,11 @@ footer .section-seperator
 width: 100%;
 }
   }
+
+
+  .sister-company-logo
+  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
