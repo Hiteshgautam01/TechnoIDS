@@ -33,7 +33,11 @@
   }
   .product-carousel .product-image {
     align-self: flex-start;
-    width: 100%;
+    /* width: 100%; */
+    width: 100px;
+    height: 100px;
+    max-height: 100px;
+    max-width: 100px;
   }
   img.review-stars {
     width: 100px;
