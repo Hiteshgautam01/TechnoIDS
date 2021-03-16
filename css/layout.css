@@ -194,6 +194,7 @@ h4 {
 ------------------------------------------------------------------*/
 .accordion .panel-default {
   border: none;
+  background-color: #000;
 }
 .accordion .panel-heading {
   border-radius: 0;
