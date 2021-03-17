@@ -503,9 +503,9 @@
     .services-card-container {
       width: 100%;
     }
-    .navbar-fixed-top
+    #carousel-example-generic
     {
-        margin-bottom: 5em;
+        margin-top: 5em;
     }
   }
   
