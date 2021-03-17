@@ -503,6 +503,10 @@
     .services-card-container {
       width: 100%;
     }
+    .navbar-fixed-top
+    {
+        margin-bottom: 5em;
+    }
   }
   
   .sister-company-logo {
