@@ -289,6 +289,16 @@
   }
   
   @media (max-width: 800px) {
+      .column-divider
+      {
+          height: 1px;
+          width: 90%;
+          background: rgba(255, 255, 255, 0.705);
+          margin: auto;
+          margin-bottom: 10px;
+          margin-top: 10px;
+
+      }
     .nav-dropdown-first-col-items a {
       max-width: 100%;
       width: 90%;
@@ -349,6 +359,7 @@
       /* overflow: hidden; */
     }
   }
+
   
   .service-icon {
     width: 35px;
