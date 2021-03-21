@@ -276,7 +276,7 @@ align-items: center;
 
 @media(max-width:800px)
 {
-    .contact-form-inner:hover
+    .contact-form-inner
 {
     width: 98%;
 }
