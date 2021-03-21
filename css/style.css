@@ -213,7 +213,10 @@
     border-radius: 10px;
     cursor: pointer;
   }
-  
+  .nav-dropdown-first-col-items a:hover
+  {
+      color:black;
+  }
   .nav-dropdown-second-col {
     padding-top: 20px;
   }

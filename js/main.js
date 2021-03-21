@@ -1,4 +1,5 @@
 var currentActiveDiv=""
+
 var currentActiveDiv2=""
 
 
@@ -10,9 +11,28 @@ $.fn.showFlex = function() {
 
   }
 
+  $(document).on("mouseover", ".nav-dropdown-first-col a", function () {
+      $(".nav-dropdown-first-col a").css("background","rgba(15, 15, 15, 0.938)")
+      $(".nav-dropdown-first-col a").css("color","rgb(129, 132, 143)")
+
+    $(this).css("background","#fd871f")
+    $(this).css("color","black")
+
+
+})
+
+$(document).on("mouseover", ".nav-dropdown-second-col a", function () {
+    $(".nav-dropdown-second-col a").css("background","rgba(15, 15, 15, 0.938)")
+    $(".nav-dropdown-second-col a").css("color","rgb(129, 132, 143)")
+
+
+  $(this).css("background","#fd871f")
+  $(this).css("color","black")
+
+})
 
 function showSubCategory(id)
-{
+{ 
     if(currentActiveDiv2!=="")
     {
         $(currentActiveDiv2).hide()
@@ -21,6 +41,7 @@ function showSubCategory(id)
         $(currentActiveDiv).hide()
         $(id).showFlex();
         currentActiveDiv=id
+       
     }
     else
     {
