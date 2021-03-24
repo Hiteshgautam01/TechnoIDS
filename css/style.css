@@ -54,21 +54,21 @@
   }
   
   .about-us-main-txt {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.76);
   }
   
   .about-us-sub-txt {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.76);
   }
   
   .about-us-greeting-txt {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.76);
   }
@@ -78,19 +78,19 @@
       font-size: 25px;
     }
     .about-us-main-txt {
-      font-size: 15px;
+      font-size: 12px;
       font-weight: 500;
       color: rgba(255, 255, 255, 0.76);
     }
     .about-us-sub-txt {
-      margin-top: 12px;
-      font-size: 15px;
+      margin-top: 10px;
+      font-size: 12px;
       font-weight: 500;
       color: rgba(255, 255, 255, 0.76);
     }
     .about-us-greeting-txt {
-      margin-top: 12px;
-      font-size: 25px;
+      margin-top: 10px;
+      font-size: 12px;
       font-weight: 500;
       color: rgba(255, 255, 255, 0.76);
     }
