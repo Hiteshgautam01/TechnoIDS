@@ -151,10 +151,10 @@ var navBar=`
                 4.3 inch Touch Screen
               </p>
           </div>
-      </a> <a href="https://technoids.in/query/ultraface331" onmouseover="" onclick="">
-          <img src="https://technoids.in/img/productimages/ULTRAFACE331.png" alt="" class="ndtc-img">
+      </a> <a href="https://technoids.in/query/TechnoUF40" onmouseover="" onclick="">
+          <img src="https://technoids.in/img/productimages/TechnoUF40.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
-              <p>ULTRAFACE331</p>
+              <p>TechnoUF40</p>
               <p>Face Recognition Terminal with built-in Access Control
                 3.97-inch touch screen
                 300 face capacity
@@ -173,13 +173,10 @@ var navBar=`
           <img src="https://technoids.in/img/productimages/ULTRAFACE671.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
               <p>ULTRAFACE671</p>
-              <p>ULtraFAce671 series face recognition terminal is a kind of access control device with
-                  large screen ratio,
-                  which supports 1:N face authentication. It can be mainly applied in multiple scenarios,
-                  such as dwellings,
-                  government buldings, Banks enterprises and so on. Variant 1: 6k Card and Face Capacity
-                  Variant 2: 6k Card
-                  and Face Capacity with GPRS Variant 3: 50k Card and Face Capacity</p>
+              <p>Face Recognition based Access Control System
+                Massive 7-inch LCD touch screen
+                Upto 50k Face Capacity
+                2 more Variants
           </div>
       </a> <a href="https://technoids.in/query/ultraface-607-671-mask-temperature-50k-" onmouseover=""
           onclick="">
