@@ -372,6 +372,9 @@
   .carousel-inner .item.full-screen:nth-child(3) {
     background-image: url("/img/bg/bg3-3.jpg") !important;
   }
+  .carousel-inner .item.full-screen:nth-child(4) {
+    background-image: url("/img/bg/bg4-4.jpg") !important;
+  }
 }
 
 @media (max-width: 768px) {
