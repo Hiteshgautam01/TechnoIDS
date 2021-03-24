@@ -97,7 +97,7 @@
   }
   
   .client-heading {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: 600;
     margin-bottom: 7px;
@@ -463,7 +463,7 @@
   }
   
   .services-card .services-back {
-    background: #1b1b1b;
+    background: #fd871f;
     color: #ffffffd0;
     text-align: center;
     -webkit-transform: rotateY(180deg);
