@@ -46,13 +46,13 @@ var navBar=`
           </li>
 
           <li class="js_nav-item nav-item">
-            <a class="nav-item-child nav-item-hover" href="/#about-us">About us</a>
+            <a class="nav-item-child" href="/#about-us">About us</a>
           </li>
           <!-- <li class="js_nav-item nav-item">
             <a class="nav-item-child nav-item-hover" href="#about">Team</a>
           </li> -->
           <li class="js_nav-item nav-item">
-            <a class="nav-item-child nav-item-hover" href="/#services">Services</a>
+            <a class="nav-item-child" href="/#services">Services</a>
           </li>
 
           <!-- <li class="js_nav-item nav-item">
@@ -62,7 +62,7 @@ var navBar=`
             <a class="nav-item-child nav-item-hover" href="/#pricing">Pricing</a>
           </li> -->
           <li class="js_nav-item nav-item">
-            <a class="nav-item-child nav-item-hover" href="/#contact">Contact</a>
+            <a class="nav-item-child" href="https://wot.hrmthread.com/hrmthread/view/loginmain.aspx?key=wot&mod=ess&code=wot" target="_blank">Login</a>
           </li>
         </ul>
       </div>
