@@ -54,13 +54,6 @@ var navBar=`
           <li class="js_nav-item nav-item">
             <a class="nav-item-child" href="/#services">Services</a>
           </li>
-
-          <!-- <li class="js_nav-item nav-item">
-            <a class="nav-item-child nav-item-hover" href="/#work">Credentials</a>
-          </li> -->
-          <!-- <li class="js_nav-item nav-item">
-            <a class="nav-item-child nav-item-hover" href="/#pricing">Pricing</a>
-          </li> -->
           <li class="js_nav-item nav-item">
             <a class="nav-item-child" href="https://wot.hrmthread.com/hrmthread/view/loginmain.aspx?key=wot&mod=ess&code=wot" target="_blank">Login</a>
           </li>
