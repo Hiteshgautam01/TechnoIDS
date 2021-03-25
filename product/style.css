@@ -77,6 +77,13 @@ font-size: 20px;
 color: #fd871f;
 cursor: pointer;
 }
+
+.fcr-btns:hover {
+    background-color: #fd871f;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
 .fcr-btns i
 {
     padding-left: 10px;
