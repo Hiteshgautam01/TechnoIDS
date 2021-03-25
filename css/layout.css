@@ -209,7 +209,8 @@ h4 {
   font-size: 22px;
 }
 .accordion .panel-title-child {
-  background-color: #343434;
+  border: 2px solid #fd871f;
+  background-color: black;
   display: block;
   padding: 30px;
   color: #fff;
