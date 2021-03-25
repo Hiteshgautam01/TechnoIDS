@@ -8,7 +8,7 @@
     width: 100%;
   }
   .product-carousel {
-    /* background: #ffffff; */
+    background: transparent;
     /* border: 1px solid #4a4a4a; */
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
@@ -85,7 +85,7 @@
   .product-carousel button.shop-now {
     border: none;
     background-image: none;
-    background-color: #4a4a4a;
+    background-color: #fd871f;
     color: #ffffff;
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -96,8 +96,8 @@
   }
   /** ARROWS **/
   .product-carousel i {
-    border: solid #000000;
-    border-width: 0 2px 2px 0;
+    border: solid #fd871f;
+    border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 12px;
     position: absolute;
