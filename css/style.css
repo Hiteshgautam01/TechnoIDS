@@ -486,7 +486,7 @@
   }
   
   .services-boxes {
-    background: #343434;
+    background-image:url("/img/bg/services_bg.jpg");
     height: 270px;
     display: -webkit-box;
     display: -ms-flexbox;
