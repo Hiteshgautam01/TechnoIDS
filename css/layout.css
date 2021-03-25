@@ -209,7 +209,7 @@ h4 {
   font-size: 22px;
 }
 .accordion .panel-title-child {
-  border: 2px solid #fd871f;
+  border: 4px solid #fd871f;
   background-color: black;
   display: block;
   padding: 30px;
@@ -630,7 +630,8 @@ h4 {
   	[Service]
 ------------------------------------------------------------------*/
 .service {
-  background: #343434;
+  background: transparent;
+  border: 5px solid #fd871f;
   padding: 50px;
 }
 .service:hover
