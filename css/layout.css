@@ -103,7 +103,7 @@ h5,
 h6 {
   font-weight: 700;
 
-  color: #f3ff91;
+  color: #fd871f;
   line-height: 1.4;
   margin: 0 0 15px;
 }
@@ -462,7 +462,7 @@ h4 {
   position: relative;
   align-items: center;
   padding: 1.4rem 3rem;
-  color: #f3ff91;
+  color: #fd871f;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
 }
@@ -481,7 +481,7 @@ h4 {
   font-size: 1.2rem;
   margin-right: 5px;
   padding: 5px;
-  color: #f3ff91;
+  color: #fd871f;
 }
 
 #products:hover > * {
