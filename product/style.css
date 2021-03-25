@@ -44,16 +44,15 @@ header
 }
 .fcr-sub-heading
 {
-    color: rgba(255, 255, 255, 0.5);
+    color: #fd871f;
 }
 .fcr-heading
 {
-    color: rgba(255, 255, 255, 0.904);
     font-size: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 600;
-    background-image: linear-gradient(to right top, #e7cf7e, #e0ca7d, #dac67c, #d3c17a, #cdbc79);
+    background-color: #fd871f;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -67,13 +66,15 @@ header
 
 .fcr-btns
 {
-background: rgb(41, 41, 41);
+border: 2px solid;
+border-color: #fd871f;
+background-color: transparent;
 margin-bottom: 10px;
 width: 70%;
 border-radius: 10px;
-padding: 17px 15px;
-font-size: 24px;
-color: rgba(255, 255, 255, 0.61);
+padding: 10px 10px;
+font-size: 20px;
+color: #fd871f;
 cursor: pointer;
 }
 .fcr-btns i
