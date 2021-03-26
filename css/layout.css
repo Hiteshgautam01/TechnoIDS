@@ -965,7 +965,7 @@ h4 {
 }
 .header .nav-item-child:hover, .header .nav-item-child:focus {
   background: transparent;
-  border:2px solid #fd871f;
+  border:4px solid #fd871f;
 }
 .header .nav-item-hover {
   position: relative;
