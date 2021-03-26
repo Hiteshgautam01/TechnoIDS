@@ -485,7 +485,7 @@
     font-weight: 400;
   }
   
-  .services-boxes {
+  .services-box1 {
     border: 4px solid #fd871f;
     background-image: url("/img/bg/services_bg.jpg");
     height: 270px;
@@ -503,7 +503,96 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  
+  .services-box2 {
+    border: 4px solid #fd871f;
+    background: white;
+    height: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services-box3 {
+    border: 4px solid #fd871f;
+    background-image: url("/img/bg/services_bg.jpg");
+    height: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services-box4 {
+    border: 4px solid #fd871f;
+    background-image: url("/img/bg/services_bg.jpg");
+    height: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services-box5 {
+    border: 4px solid #fd871f;
+    background-image: url("/img/bg/services_bg.jpg");
+    height: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services-box6 {
+    border: 4px solid #fd871f;
+    background-image: url("/img/bg/services_bg.jpg");
+    height: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .services-section-icon {
     width: 50px;
     height: 50px;
