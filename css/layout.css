@@ -935,7 +935,7 @@ h4 {
   display: block;
 }
 .header .nav-item:last-child .nav-item-child {
-  padding-right: 20;
+  padding-right: 20px;
 }
 .header .nav-item .nav-item-hover.active:after {
   opacity: 1;
