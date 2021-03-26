@@ -965,7 +965,6 @@ h4 {
 }
 .header .nav-item-child:hover, .header .nav-item-child:focus {
   background: transparent;
-  border:4px solid #fd871f;
 }
 .header .nav-item-hover {
   position: relative;
@@ -976,7 +975,7 @@ h4 {
   left: 0;
   width: 9px;
   height: 2px;
-  background: transparent;
+  background: #fd871f;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
