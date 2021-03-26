@@ -975,7 +975,7 @@ h4 {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #fd871f;
+  border: 2px solid #fd871f;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
