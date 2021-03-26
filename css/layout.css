@@ -964,7 +964,8 @@ h4 {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 .header .nav-item-child:hover, .header .nav-item-child:focus {
-  background: #fd871f;
+  background: transparent;
+  border:2px solid #fd871f;
 }
 .header .nav-item-hover {
   position: relative;
@@ -975,7 +976,7 @@ h4 {
   left: 0;
   width: 9px;
   height: 2px;
-  border: 2px solid #fd871f;
+  background: transparent;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
