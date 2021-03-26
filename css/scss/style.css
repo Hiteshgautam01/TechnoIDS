@@ -415,6 +415,7 @@ footer .section-seperator {
 }
 
 .services-card-container {
+  background-image: url("/img/bg/services_bg.jpg")
   cursor: pointer;
   height: 270px;
   -webkit-perspective: 600;
