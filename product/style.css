@@ -150,6 +150,11 @@ transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     animation: imagerotate 0.8s;
 }
 
+.contact-popup-img:hover{
+
+background:transparent;    
+}
+
 @keyframes imagerotate{
     50% {
         transform: rotateZ(0);
