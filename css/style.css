@@ -265,6 +265,10 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  .nav-dropdown-third-col-items a:hover {
+    background: #fd871f;
+  }
   
   .nav-dropdown-third-col-items a .ndtc-img {
     height: 80px;
