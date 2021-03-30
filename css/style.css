@@ -474,8 +474,8 @@
   }
   
   .services-card .services-back {
-    background-image: url("/img/Gold.jpg");
-    color: #ffffffd0;
+    background-image: url("/img/service-back.png");
+    color: black;
     text-align: center;
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
