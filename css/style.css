@@ -396,8 +396,8 @@
   
   @media (max-width: 768px) {
     .carousel-title {
-      font-size: 48px;
-      text-align: center;
+      font-size: 46px;
+      text-align: left;
     }
     .carousel-centered {
       position: absolute;
