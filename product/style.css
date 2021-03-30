@@ -6,7 +6,7 @@ body
 
 header
 {
-    background: black;
+    background-image: url("/img/mainbg.png");
 }
 
 .first-container
