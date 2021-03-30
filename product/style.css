@@ -6,7 +6,7 @@ body
 
 header
 {
-    background: black;
+    background-image: url("/img/mainbg.png");
 }
 
 .first-container
@@ -15,7 +15,6 @@ header
 }
 .first-container-inner
 {
-   
     width: 90%;
     margin: auto;
     display: flex;
@@ -150,9 +149,13 @@ transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     animation: imagerotate 0.8s;
 }
 
-.contact-popup-img:hover{
-
-background:transparent;    
+.contact-popup-img:hover
+{
+background:transparent;
+transform: scale(1.2) rotate(180deg);
+color: rgb(255, 115, 0);
+cursor: pointer;
+transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 @keyframes imagerotate{
