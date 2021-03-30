@@ -1,12 +1,12 @@
 body
 {
-    background: black;
-    color: white;
+    background-image: url("/img/mainbg.png");
+
 }
 
 header
 {
-    background-image: url("/img/mainbg.png");
+    background: black;
 }
 
 .first-container
@@ -34,7 +34,7 @@ header
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    background: rgb(68, 68, 68);
+    background: transparent;
 
 }
 .first-container-right
