@@ -252,6 +252,7 @@
   .nav-dropdown-third-col-items a {
     margin: 5px 5px;
     background: #202020;
+    border: 5px solid rgba(15, 15, 15, 0.937);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
