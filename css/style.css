@@ -5,7 +5,7 @@
   }
   
   .about-us {
-    height: 60vh;
+    height: 80vh;
     background-image: url("/img/bg/aboutusbg.jpg");
     background-size: cover;
     background-position: center;
@@ -54,13 +54,13 @@
   }
   
   .about-us-main-txt {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.76);
   }
   
   .about-us-sub-txt {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 15px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.76);
