@@ -475,7 +475,7 @@
   
   .services-card .services-back {
     background-image: url("/img/service-back.png");
-    color: black;
+    color: white;
     text-align: center;
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
