@@ -147,6 +147,12 @@ transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     width: 40%;
     border-radius: 8px;
     animation: imagerotate 0.8s;
+}
+
+
+.contact-popup-img:hover
+{
+    background:transparent;
     @include transition(all 0.3s ease);
     @include transform3d(rotateX(50deg) rotateZ(1deg));
     image-shadow:
@@ -191,8 +197,6 @@ transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         white -0.15em -0.1em 100px;
       }
 }
-
-
 @keyframes imagerotate{
     50% {
         transform: rotateZ(0);
