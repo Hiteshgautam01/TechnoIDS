@@ -484,14 +484,9 @@ h4 {
   padding: 5px;
   color: #fd871f;
 }
-#products {
-  background-color: black;
-}
-#products:hover > * {
-  color: #fd871f;
-  font-weight: 700;
-  font-stretch: ultra-expanded;
-  background-color: transparent;
+
+#products > * {
+  background-image: url("/img/clientsbg.png");
 }
 
 #toggler {
