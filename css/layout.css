@@ -38,8 +38,7 @@ body {
 body {
   position: relative;
   font-family: 'Poppins', sans-serif;
-  background-image: url("/img/mainbg.png");
-  background-size: 100% 48%
+  background:black;
 }
 
 
@@ -485,7 +484,9 @@ h4 {
   padding: 5px;
   color: #fd871f;
 }
-
+#products {
+  background-color: black;
+}
 #products:hover > * {
   color: #fd871f;
   font-weight: 700;
