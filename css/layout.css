@@ -495,6 +495,13 @@ h4 {
   z-index:-1;
 }
 
+#products:hover > * {
+  color: #fd871f;
+  font-weight: 700;
+  font-stretch: ultra-expanded;
+  background-color: transparent;
+}
+
 #toggler {
   display: none;
 }
