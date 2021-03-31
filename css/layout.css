@@ -486,6 +486,7 @@ h4 {
 }
 
 #products > * {
+  width: 100%;
   background-image: url("/img/clientsbg.png");
   background-position: center;
   background-repeat: no-repeat;
