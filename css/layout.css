@@ -487,18 +487,13 @@ h4 {
 
 #products > * {
   background-image: url("/img/clientsbg.png");
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-  z-index:-1;
 }
 
 #products:hover > * {
-  color: #fd871f;
-  font-weight: 700;
-  font-stretch: ultra-expanded;
   background-color: transparent;
 }
 
