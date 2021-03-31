@@ -5,6 +5,7 @@
   }
   
   .about-us {
+    padding-top: 15px;
     height: 80vh;
     background-image: url("/img/bg/aboutusbg.jpg");
     background-size: cover;
