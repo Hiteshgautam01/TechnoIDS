@@ -7,6 +7,7 @@ body
 header
 {
     background-image: url("/img/mainbg.png");
+    background-size: 100% 100%;
     
 }
 
