@@ -608,6 +608,11 @@
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
+    background-image: url("/img/connectionsbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
   .sister-company-logo img {
