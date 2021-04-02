@@ -127,7 +127,7 @@ line-height: 1.87;
 
 .contact-popup-close
 {
-    place-self: flex-start;
+    align-self: flex-end;
     top: 18%;
     font-size: 40px;
 }
