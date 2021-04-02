@@ -595,22 +595,6 @@
       }
     
   }
-
-  @media(max-width:600px)
-  {
-    .first-container-inner
-    {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .contact-popup-img
-
-  {
-    max-width: 100%;
-    width: 90%;
-    border-radius: 8px;
-
-  }
   
   .sister-company-logo {
     display: -webkit-box;
