@@ -608,6 +608,8 @@
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-image: url("/img/connectionsbg.jpg");
     background-size: cover;
     background-position: center;
