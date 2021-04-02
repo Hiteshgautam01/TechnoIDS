@@ -2,39 +2,39 @@ body {
     overflow: hidden;
   }
 
-@keyframes customanim
-{
+  @keyframes customanim
+  {
 
-0%   {values;}
-100%   {values;}
+  0%   {values;}
+  100%   {values;}
 
-}
+  }
 
-@-webkit-keyframes customanim /* Safari and Chrome */
-{
+  @-webkit-keyframes customanim /* Safari and Chrome */
+  {
 
-0%   {css-values;}
-100%   {more-values;}
+  0%   {css-values;}
+  100%   {more-values;}
 
-}
+  }
 
-#preloader {
+  #preloader {
 
 
-position: absolute;
-top: 0%;
-left: 0%;
-width: 100%;
-height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
 
-animation: customanim 3s;
+    animation: customanim 3s;
 
--webkit-animation: customanim 5s;
+    -webkit-animation: customanim 5s;
 
--webkit-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
 
-}
-#status {
+  }
+  #status {
     position: absolute;
     left: 0;
     top: 0;
