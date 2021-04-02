@@ -575,7 +575,7 @@
 
   {
     max-width: 100%;
-    width: 40%;
+    position: absolute;
     border-radius: 8px;
     animation: imagerotate 0.8s;
   }

@@ -146,7 +146,7 @@ transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
 {
     max-width: 100%;
-    width: 40%;
+    position: absolute;
     border-radius: 8px;
     animation: imagerotate 0.8s;
 }
