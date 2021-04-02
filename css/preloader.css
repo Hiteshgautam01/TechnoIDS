@@ -6,7 +6,7 @@ body {
   /* Preloader */
   
   #preloader {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -14,7 +14,9 @@ body {
     background-color:#101010;
 
     z-index: 990999999999999;
-
+    animation: customanim 3s;
+    -webkit-animation: customanim 5s;
+    -webkit-animation-fill-mode: forwards;
  
   }
   
