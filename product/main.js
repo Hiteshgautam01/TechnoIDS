@@ -287,11 +287,7 @@ var navBar=`
               <p>TW-HH100 + Battery</p>
               <p>Hand Held Metal Detector with battery</p>
           </div>
-      </a>
-  </div>
-
-  <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-5">
-      <a href="https://technoids.in/query/tw-d2101" onmouseover="" onclick="">
+      </a> <a href="https://technoids.in/query/tw-d2101" onmouseover="" onclick="">
           <img src="https://technoids.in/img/productimages/TW-%20D2101.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
               <p>TW- D2101</p>
