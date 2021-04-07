@@ -493,13 +493,21 @@ var navBar=`
   </div>
 
   <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-10">
-      <a href="https://technoids.in/query/TechnoXBS5x3" onmouseover="" onclick="">
-          <img src="https://technoids.in/img/productimages/TechnoXBS5x3.png" alt="" class="ndtc-img">
+      <a href="https://technoids.in/query/Techno-XBS53" onmouseover="" onclick="">
+          <img src="https://technoids.in/img/productimages/Techno-XBS53.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
-              <p>TechnoXBS5x3</p>
+              <p>Techno-XBS53</p>
               <p>Tunnel size(mm) 500(L)*300(W)
                  Conveyor height(mm) 668.5
                  Conveyor Max Load(kgs) 100</p>
+          </div>
+      </a> <a href="https://technoids.in/query/Techno-XBS3612" onmouseover="" onclick="">
+          <img src="https://technoids.in/img/productimages/Techno-XBS3612.png" alt="" class="ndtc-img">
+          <div class="ndtc-content">
+              <p>Techno-XBS3612</p>
+              <p>Tunnel size(mm) 3629(L)*1295(W) 1916(H)
+                 Conveyor Speed(m/s) 0.22
+                 Conveyor height(mm) 341</p>
           </div>
       </a>
   </div>
