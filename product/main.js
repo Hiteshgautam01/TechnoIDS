@@ -88,10 +88,7 @@ var navBar=`
       <a onmouseover="showSubCategoryItems('#product-items-4')" onclick="">Smart Door Locks</a>
   </div>
   <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-2">
-      <a onmouseover="showSubCategoryItems('#product-items-5')" onclick="">Hand Held Metal
-          detectors</a>
-      <a onmouseover="showSubCategoryItems('#product-items-6')" onclick="">Door Frame Metal
-          Detectors</a>
+      <a onmouseover="showSubCategoryItems('#product-items-5')" onclick="">Metal Detectors</a>
       <a onmouseover="showSubCategoryItems('#product-items-7')" onclick="">Tripod Barrier</a>
       <a onmouseover="showSubCategoryItems('#product-items-8')" onclick="">Flap Barrier</a>
       <a onmouseover="showSubCategoryItems('#product-items-9')" onclick="">Swing Barrier</a>
@@ -293,7 +290,7 @@ var navBar=`
       </a>
   </div>
 
-  <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-6">
+  <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-5">
       <a href="https://technoids.in/query/tw-d2101" onmouseover="" onclick="">
           <img src="https://technoids.in/img/productimages/TW-%20D2101.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
