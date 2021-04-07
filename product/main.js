@@ -95,12 +95,13 @@ var navBar=`
       <a onmouseover="showSubCategoryItems('#product-items-7')" onclick="">Tripod Barrier</a>
       <a onmouseover="showSubCategoryItems('#product-items-8')" onclick="">Flap Barrier</a>
       <a onmouseover="showSubCategoryItems('#product-items-9')" onclick="">Swing Barrier</a>
+      <a onmouseover="showSubCategoryItems('#product-items-10')" onclick="">Baggage Scanner</a>
 
   </div>
   <div class="nav-dropdown-first-col-items hide-dropdown-product-items" id="product-sub-category-3">
-      <a onmouseover="showSubCategoryItems('#product-items-10')" onclick="">Boom Barrier</a>
-      <a onmouseover="showSubCategoryItems('#product-items-11')" onclick="">Toll Barrier</a>
-      <a onmouseover="showSubCategoryItems('#product-items-12')" onclick="">UHF Card Reader</a>
+      <a onmouseover="showSubCategoryItems('#product-items-11')" onclick="">Boom Barrier</a>
+      <a onmouseover="showSubCategoryItems('#product-items-12')" onclick="">Toll Barrier</a>
+      <a onmouseover="showSubCategoryItems('#product-items-13')" onclick="">UHF Card Reader</a>
 
   </div>
 
@@ -431,7 +432,7 @@ var navBar=`
       </a>
   </div>
 
-  <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-12">
+  <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-13">
       <a href="https://technoids.in/query/tipl-101" onmouseover="" onclick="">
           <img src="https://technoids.in/img/productimages/TIPL%20101.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
@@ -459,7 +460,7 @@ var navBar=`
       </a>
   </div>
 
-  <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-11">
+  <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-12">
       <a href="https://technoids.in/query/tw-pb3010" onmouseover="" onclick="">
           <img src="https://technoids.in/img/productimages/TW-PB3010.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
@@ -469,7 +470,7 @@ var navBar=`
       </a>
   </div>
 
-  <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-10">
+  <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-11">
       <a href="https://technoids.in/query/tw-pb3030" onmouseover="" onclick="">
           <img src="https://technoids.in/img/productimages/TW-PB3030.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
@@ -494,6 +495,18 @@ var navBar=`
           <div class="ndtc-content">
               <p>TW-PB4060FS</p>
               <p>Fencing type Boom Barrier with opening time of 6 Second  </p>
+          </div>
+      </a>
+  </div>
+
+  <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-10">
+      <a href="https://technoids.in/query/TechnoXBS5x3" onmouseover="" onclick="">
+          <img src="https://technoids.in/img/productimages/TechnoXBS5x3.png" alt="" class="ndtc-img">
+          <div class="ndtc-content">
+              <p>TechnoXBS5x3</p>
+              <p>Tunnel size(mm) 500(L)*300(W)
+                 Conveyor height(mm) 668.5
+                 Conveyor Max Load(kgs) 100</p>
           </div>
       </a>
   </div>
