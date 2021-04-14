@@ -246,26 +246,26 @@ var navBar=`
   </div>
 
   <div class="nav-dropdown-third-col-items hide-dropdown-product-items" id="product-items-4">
-      <a href="https://technoids.in/query/fgl14" onmouseover="" onclick="">
-          <img src="https://technoids.in/img/productimages/FGL14.png" alt="" class="ndtc-img">
+      <a href="https://technoids.in/query/TIDS-SDLG1" onmouseover="" onclick="">
+          <img src="https://technoids.in/img/productimages/TIDS-SDLG1.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
-              <p>FGL14</p>
+              <p>TIDS-SDLG1</p>
               <p>Password for opening door : 1,000 Units 
                 Fingerprint for opening door : 500 Units 
                 Cards for Opening door : 1,000 Units</p>
           </div>
-      </a> <a href="https://technoids.in/query/thtl1000" onmouseover="" onclick="">
-          <img src="https://technoids.in/img/productimages/THTL1000.png" alt="" class="ndtc-img">
+      </a> <a href="https://technoids.in/query/TIDS-SDL1000" onmouseover="" onclick="">
+          <img src="https://technoids.in/img/productimages/TIDS-SDL1000.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
-              <p>THTL1000</p>
+              <p>TIDS-SDL1000</p>
               <p>Aluminuim Alloy holding material with size of 280*72mm
                 
               </p>
           </div>
-      </a> <a href="https://technoids.in/query/thtl2000" onmouseover="" onclick="">
-          <img src="https://technoids.in/img/productimages/THTL2000.png" alt="" class="ndtc-img">
+      </a> <a href="https://technoids.in/query/TIDS-SDL2000" onmouseover="" onclick="">
+          <img src="https://technoids.in/img/productimages/TIDS-SDL2000.png" alt="" class="ndtc-img">
           <div class="ndtc-content">
-              <p>THTL2000</p>
+              <p>TIDS-SDL2000</p>
               <p>Aluminuim Alloy holding material with size of 280*72mm
                 with 6V four alkaline batteries
               </p>
